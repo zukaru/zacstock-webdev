@@ -1,0 +1,15 @@
+<div class="wid-post-wrap d-flex">
+   <div class="image-wrap">
+      <a href="javascript:void(0);" (click)="listBlogContent(postList)"><img class="rounded" src="{{postList.image}}" width="100" height="100"></a>
+   </div>
+	<div class="post-content pl-3">
+		<div class="sec-title">
+			<h6 class="mb-2">
+				<a href="javascript:void(0);" (click)="listBlogContent(postList)">{{postList.title}}</a>
+			</h6>
+		</div>
+		<div class="meta-info "><span class="post-time"><a href="javascript:void(0);" class="font-smx text-muted"><time datetime="">{{postList.date}}</time></a></span></div>
+	</div>
+   <!-- post-content wrap close -->
+</div>
+<!-- wid-post-wrap close -->

@@ -1,0 +1,20 @@
+[
+	{
+		"backgroundImage" : "assets/images/blackWhiteHeadphones.jpg",
+		"title" : "Designed to Inspire Action",
+      "btn" : "CONTACT",
+      "btnlink" : "/contact"
+	},
+	{
+		"backgroundImage" : "assets/images/succulentCoffeeCotrollerTable.jpg",
+		"title" : "Websites That Get Results",
+		"btn" : "CONTACT",
+      "btnlink" : "/contact"
+	},
+	{
+		"backgroundImage" : "assets/images/minifiedJquery.jpg",
+		"title" : "Industry Trusted Technologies",
+		"btn" : "CONTACT",
+      "btnlink" : "/contact"
+	}
+]

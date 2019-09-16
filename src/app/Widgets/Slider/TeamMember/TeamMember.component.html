@@ -1,0 +1,39 @@
+<div class="row no-gutters">
+   <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+      <div class="skills-content-wrap bg-light h-100 d-flex align-items-center">
+         <div class="skills-content">
+            <div class="sec-title">
+               <h3 class=" mb-0"><span class="about-cus-font">{{title}}</span></h3>
+            </div>
+         </div>   
+      </div> 
+      <!-- skills-content-wrap close -->
+   </div>
+   <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+      <div class="explore-skills-wrapper h-100">
+         <ngx-slick-carousel [config]="teamMemberSlideConfig">
+            <div class="explore-skill-item h-100"  ngxSlickItem *ngFor="let team of teamContent">
+               <div class="overlay-wrap">
+                  <div class="image-wrap">
+                     <img src="{{team.image1}}" alt="team image" width="570" height="876">
+                     <img src="{{team.image2}}" alt="team image" width="570" height="876">
+                  </div>
+                  <div class="overlay-content p-7 d-flex align-items-end">
+                     <div class="section-wrap">
+                        <a (click)="getTeamContent(team)" href="javascript:void(0)"><h5 class="title text-white mb-1 font-weight-bold">{{team.name}}</h5></a>
+                        <div class="desig">
+                           <p class="mb-0 text-white">{{team.designation}}</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- overlay-content wrap close -->
+               </div> 
+               <!-- overlay-wrap close -->
+            </div>
+            <!-- explore-skill-item wrap close -->
+         </ngx-slick-carousel>   
+      </div>
+      <!-- explore-skills-wrapper close -->
+   </div>   
+</div> 
+

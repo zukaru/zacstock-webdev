@@ -1,0 +1,22 @@
+/*--------------
+3.3.10 Team Section
+----------------*/
+/*=============|team-v2|=============*/
+
+.team-founder-info,.single-meta-wrap{
+   .image-wrap{
+      img{
+         border-radius: 10px;
+      }
+   }
+}
+.team-v2 {
+   .sec-title {
+      margin-bottom:5rem;
+   }
+}
+@media(max-width:991px){
+   .team-v2 .sec-title {
+      margin-bottom: 3.5rem;  
+   }
+}

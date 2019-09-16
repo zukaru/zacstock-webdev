@@ -1,0 +1,2096 @@
+[
+	{
+		"id" : 1,
+		"image1" : "assets/images/bills_phone_cocoa.jpg",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "2019",
+		"category" : "Business",
+		"title" : "Bill's Awnings & Upholstery",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 2,
+		"image1" : "assets/images/bills-instagram.jpg",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Business",
+		"title" : "Bill's Awnings & Upholstery",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 3,
+		"image1" : "assets/images/mlc-multi-device.jpg",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Business",
+		"title" : "MLC Drywall & Paint",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 4,
+		"image1" : "https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Business",
+		"title" : "Electra",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 5,
+		"image1" : "https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Business",
+		"title" : "Woodtap",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 6,
+		"image1" : "https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Business",
+		"title" : "Cafefire",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 7,
+		"image1" : "https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Business",
+		"title" : "Bestofstep",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 8,
+		"image1" : "https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Business",
+		"title" : "Stephq",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 9,
+		"image1" : "https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Business",
+		"title" : "Cardecu",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 10,
+		"image1" : "https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Business",
+		"title" : "Surfacefashion",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 11,
+		"image1" : "https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Business",
+		"title" : "Titanicpower",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 12,
+		"image1" : "https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Business",
+		"title" : "punikan",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 1,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Consulting",
+		"title" : "Carceag",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 2,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Consulting",
+		"title" : "Rreget",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 3,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Consulting",
+		"title" : "Hubwood",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 4,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Consulting",
+		"title" : "Safetyvita",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 5,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Consulting",
+		"title" : "Leaderhigh",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 6,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Consulting",
+		"title" : "Vitaprofessional",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 7,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Consulting",
+		"title" : "Royalprimary",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 8,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Consulting",
+		"title" : "Maximateam",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 9,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Consulting",
+		"title" : "Hugecake",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 10,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Consulting",
+		"title" : "Meelite",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 11,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Consulting",
+		"title" : "Onlynova",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 12,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"title" : "Pitchlook",
+		"category" : "Consulting",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 1,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Journal",
+		"title" : "Firstwiz",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 2,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Journal",
+		"title" : "Joyprofessional",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 3,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Journal",
+		"title" : "Funvita",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 4,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Journal",
+		"title" : "Availgold",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 5,
+		"image1" :"assets/images/minifiedJquery.jpg",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Journal",
+		"title" : "test2",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 6,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Journal",
+		"title" : "Pitchlook",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 7,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Journal",
+		"title" : "Maximateam",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 8,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Journal",
+		"title" : "Dayneo",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 9,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Journal",
+		"title" : "Nextwavefashion",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 10,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Journal",
+		"title" : "Softjunky",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 11,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Journal",
+		"title" : "Cardecu",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 12,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Journal",
+		"title" : "Wowstep",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 1,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Research",
+		"title" : "Steploop",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 2,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Research",
+		"title" : "Woodoffers",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 3,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Research",
+		"title" : "Cabinsoft",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 4,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Research",
+		"title" : "Sweetwiki",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 5,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Research",
+		"title" : "Stephq",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 6,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Research",
+		"title" : "Electra",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 7,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"category" : "Research",
+		"title" : "Woodtap",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 8,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"title" : "Cafejar",
+		"category" : "Research",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 9,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"title" : "Reelectra",
+		"category" : "Research",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 10,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"title" : "Netelectra",
+		"category" : "Research",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" :11,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"title" : "Caromni",
+		"date" : "January 29, 2019",
+		"category" : "Research",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 12,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"title" : "Caratch",
+		"category" : "Research",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 1,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Antonio Lembart",
+		"date" : "January 29, 2019",
+		"title" : "Nicholas Page",
+		"category" : "web-designer",
+		"type" : "Web Designer",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 2,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Jacqueline Smith",
+		"date" : "January 29, 2019",
+		"title" : "Verna Barber",
+		"category" : "web-designer",
+		"type" : "Web Designer",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	},
+	{
+		"id" : 3,
+		"image1" :"https://via.placeholder.com/1200x900",
+		"remainingImages" : [
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900",
+			"https://via.placeholder.com/1200x900"
+		],
+		"projectInfo" : "Featured in Lorem Magazine",
+		"author" : "Stephen Couture",
+		"date" : "January 29, 2019",
+		"title" : "Calvin Massey",
+		"category" : "web-designer",
+		"type" : "Web Designer",
+		"about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"socialShare" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com/zacstock"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	}
+]

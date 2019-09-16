@@ -1,0 +1,101 @@
+/*--------------
+3.3.5 Slider Elements Section
+----------------*/
+/*==============|Slick Slider|==============*/
+body .slick-slider{
+   z-index: 1;
+   margin-bottom:0px !important;
+   a:not([href]):not([tabindex]).slick-arrow,.slick-arrow{      
+      position: absolute;
+      top: calc(50% - 38px);
+      z-index: 2;
+      cursor: pointer;
+      width:40px;
+      &.slick-prev{
+         left: -8px;
+      }
+      &.slick-next{
+         right: -8px;
+      }
+      &::before{
+         color: $slick-arrow-color;         
+         font-size: 38px;
+      }
+   }
+   .slick-dots{
+      list-style-type: none;
+      text-align: center;
+      padding: 0;
+      li{
+         display: inline-block;
+         margin:0 2.5px;
+         width: auto;
+         button{
+            cursor: pointer;
+            font: 0/0 a;
+            appearance: none;
+            border: 0;
+            background-color: $slick-dots-def;
+            border-radius: 6.5px;
+            width: 13px;
+            height: 13px;
+            transition: $theme-transition;
+            &:focus{
+               outline: none;
+            }
+            &::before{
+               content:none;
+            }
+         }
+         &.slick-active{
+            button{
+               width: 28px;
+               background-color: $primary;
+            }
+         }
+      }
+   }
+}
+.overlay-slider-elem{
+   position: relative;
+   .banner-wrap{
+      background-position: center center;
+   }
+   .slick-slider .slick-arrow{
+      position: absolute;
+      width: 4rem;
+      height: 4rem;
+      line-height: 4rem;
+      font-size: 1.7rem;
+      text-align: center;
+      background-color:rgba($dark,0.3);
+      &.slick-prev{
+         left: 4%;
+      }
+      &.slick-next{
+         right: 4%;
+      }
+   }
+   .slick-dots{
+      position: absolute;
+      left: 4%;
+      bottom: 3.5rem;
+      display: inline-block;
+      width: auto;
+   }
+   .slick-slider .slick-dots li.slick-active button{
+      background-color: $warning;
+   }
+}
+.testimonial-slider{
+   .slick-dots{
+      position: static;
+      bottom: 0;
+   }
+}
+
+@media(min-width:992px){
+   .overlay-slider-elem .slick-dots{
+      bottom: 5.8rem;
+   }
+}

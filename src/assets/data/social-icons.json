@@ -1,0 +1,14 @@
+[
+	{
+		"icons" : "fab fa-instagram",
+		"links" : "http://instagram.com/zacstock_webdev"
+  },
+  {
+		"icons" : "fab fa-facebook",
+		"links" : "http://facebook.com/ZacStockWebDev"
+  },
+  {
+		"icons" : "fab fa-twitter",
+		"links" : "https://twitter.com/zac_stock"
+	}
+]

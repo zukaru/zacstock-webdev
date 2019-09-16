@@ -1,0 +1,52 @@
+<app-banner pageTitle="Blog List"></app-banner>
+<div class="content sec-pad">
+	<div class="blog-wrap">
+		<div class="container">
+			<div class="blog-list">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-8 mrgn-b-2 mb-lg-0">
+						<div class="row" *ngIf="blogList && (blogList).length > 0"> 
+							<div class="col-12 mb-5" *ngFor="let list of blogList">
+								<app-list-blog [blogList]="list"></app-list-blog>
+								<!-- blog item -->
+							</div>
+						</div>
+						<!-- row -->
+						<nav class="" aria-label="Page navigation">
+							<app-pagination [paginationItems]="paginationItems"></app-pagination>
+						</nav>
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-4">
+						<div class="sidebar-wrap">
+							<div class="widget widget_search">
+                        <app-search-v1></app-search-v1>
+							</div>
+							<div class="widget widget_postlist">
+								<div class="popular-post-listing" *ngIf="blogList && (blogList).length > 0">
+									<div class="post-list-item mrgn-b-2" *ngFor="let list of blogList; let i = index">
+										<ng-container *ngIf="i<3">
+											<app-post-list [postList]="list"></app-post-list>
+										</ng-container>
+									</div>									
+								</div>
+							</div>
+							<div class="widget widget_categories">
+								<app-categories [categories]="categories"></app-categories>
+							</div>
+							<div class="widget widget_tag_cloud">
+								<app-tag [tags]="tags"></app-tag>
+							</div>
+							<div class="widget widget_recent_comments">
+								<app-recent-comments [recentComments]="recentComments"></app-recent-comments>
+							</div>
+						</div>
+                  <!-- sidebar wrap close -->
+					</div>
+				</div>
+				<!-- row -->
+			</div>
+         <!-- blog liost wrap close -->
+		</div>
+	</div>
+   <!-- blog-wrap close -->
+</div>

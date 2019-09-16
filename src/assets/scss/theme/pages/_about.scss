@@ -1,0 +1,296 @@
+/*--------------
+3.4.2 About Page
+----------------*/
+/*==== about Wrap ====*/
+.banner-sec-wrap{
+   .about-banner{
+      padding:7rem 1rem;
+   }
+}
+.brands-wrap{
+   .image-wrap{
+      background-image: url("/assets/images/succulentCoffeeCotrollerTable.jpg");
+      position:relative;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height:100%;
+      min-height:$brands-image-height;
+      width:100%;
+   }
+   .brands-content-wrap{
+      padding:4rem 5rem;
+      min-height: calc(#{$brands-image-height} / 2);
+   }
+   .brands-content{
+      .number-wrap{
+         top:-30px;
+         left:-6px;
+         .number-count{
+            font-size:4.5rem;
+         }
+      }
+   }
+   .bg-color{
+      &:nth-child(even){
+         background: $white;
+      }
+      &:nth-child(2),&:nth-child(odd){
+         background-color:$gray-100;
+      }
+      &:nth-child(1){
+         background: $white;
+      }
+   }
+}
+@media(max-width:767px){
+   .brands-wrap{
+      .bg-color{
+         &:nth-child(odd){
+            background: $gray-100;
+         }
+         &:nth-child(even){
+            background: $white;
+            box-shadow:0 0 20px 0 rgba($dark, 0.07);
+         }
+      }
+   }
+   .brands-wrap .image-wrap{
+      min-height: 400px;
+   }
+   .brands-wrap .brands-content-wrap{
+      min-height: 200px;
+   }
+}
+.about-us-sec{
+   .about-us-content{
+      padding:7.5rem 4rem;
+      .social-icon a:first-child{
+         padding-left:0px !important;
+      }
+   }
+   .image-wrap{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center right;
+      background-image: url("/assets/images/succulentCoffeeCotrollerTable.jpg");
+      height:100%;
+      min-height:670px;
+      width:100%;
+   }
+}
+
+.skills-wrap {
+   .skills-content-wrap{
+      padding:4rem;
+   }
+   .explore-skills-wrapper .slick-track,.explore-skills-wrapper .slick-list{
+      height:100%;
+   }
+}
+.counter-sec-wrap {
+   background-image: url('/assets/images/b-&-w-succulent-closeup-computer-in-background.jpg');
+   background-size: cover;
+   position: relative;
+   z-index: 0;
+   background-attachment: fixed;
+   &::after{
+      position: absolute;
+      content: "";
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background-color:rgba($blue,0.6);
+      z-index: -1;
+   }
+   > div{
+      z-index: 1;
+   }
+   .text-title ,.icon-circle i{
+      color: $white;
+   }
+   .counter-content{
+      .number-wrap{
+         // top:-25px;
+         // left:13px;
+         position: static;
+         .number-count{
+            font-size:4rem;
+            color: rgba($white,0.9);
+         }
+      }
+      .text-wrap{
+         .text-title{
+            font-size:1.6rem;
+         }
+      }
+   }
+   .icon-circle{
+      .fa-circle{
+         font-size:10px;
+      }
+   }
+}
+
+.approach-wrap{
+   .sec-line:after{
+      content: '';
+      background-color: $primary;
+      width: 4px;
+      height: 65px;
+      display: inline-block;
+   }
+   .approach-image{
+      background-image: url("/assets/images/succulentCoffeeCotrollerTable.jpg");
+      position:relative;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding:6.6rem 1rem 6.6rem 1rem;
+      &:after{
+         position: absolute;
+         content: '';
+         background-color: rgba(0, 0, 0, 0.64);
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         z-index:1;
+      }
+      .image-overlay{
+         position:relative;
+         z-index:2;
+      }
+   }
+   .approach-content{
+      margin-top: -6.6rem;
+      position:relative;
+      z-index:3;
+      .approach-card{
+         border:10px solid transparent;
+         transition: all .4s ease;
+         border-radius: 10px;
+
+         .number-count{
+            font-size:4.5rem;
+            line-height: 0.9;
+         }
+         .btn-square{
+            transition: all 0.4s ease;
+            transform:scaleY(0);
+         }
+
+         &:hover{
+            border-color:$primary;
+            .btn-square{
+               transform:scaleY(1);
+            }
+
+         }
+      }
+   }
+}
+.about-portfolio-wrap{
+   .image-wrap{
+      position:relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height:100%;
+      min-height:255px;
+      width:100%;
+   }
+}
+.about-content{
+   .sec-line:after{
+      content:'';
+      background-color:$primary;
+      width:3px;
+      height:100px;
+      display:inline-block;
+   }
+   span{
+      font-size:30px;
+   }
+}
+.skills-wrap,.brands-wrap{
+   .overlay-wrap{
+      .overlay-content{
+         visibility:visible;
+         opacity:1;
+         box-shadow:inset 0 -90px 100px -50px rgba(0,0,0,0.4);
+      }
+   }
+}
+.skills-wrap{
+   .image-wrap{
+      img:nth-child(2){
+         display: none;
+      }
+   }
+   .overlay-content{
+      box-shadow: none;
+      >div{
+         position: relative;
+         z-index: 2;
+      }
+      &::after{
+         content: "";
+         bottom: 0;
+         left: 0;
+         right: 0;
+         z-index: 0;
+         background: linear-gradient(transparent 10%,rgba($dark,0.5));
+         position: absolute;
+         transform: translateY(0rem);
+         height: 30%;
+         transition: all 0.2s linear;
+      }
+   }
+   .overlay-wrap{
+      &:hover{
+         img{
+            display: none;
+         }
+         img:nth-child(2){
+            display: block;
+         }
+      }
+   }
+}
+
+
+@media (max-width:767px){
+   .banner-sec-wrap .pages-common-banner.about-banner,.banner-sec-wrap .pages-common-banner.portfolio-banner{
+     padding:4rem 1rem;
+   }
+   .about-portfolio-wrap{
+      padding-bottom:3rem;
+   }
+   .about-us-sec .image-wrap{
+      min-height: 570px;
+   }
+}
+@media (max-width:1268px){
+   .brands-wrap{
+      .brands-content-wrap{
+         padding:3rem;
+      }
+   }
+   .about-us-sec .about-us-content,.skills-wrap .skills-content-wrap {
+      padding-left: 3rem;
+      padding-right: 3rem;
+   }
+}
+@media(max-width:991px){
+   .brands-wrap .brands-content-wrap,.about-us-sec .about-us-content,.skills-wrap .skills-content-wrap {
+      padding-left: 1rem;
+      padding-right: 1rem;
+   }
+}
+@media(max-width:480px){
+  .about-us-sec .image-wrap {
+      min-height: 397px;
+   }
+}

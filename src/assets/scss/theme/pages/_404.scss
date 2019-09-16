@@ -1,0 +1,24 @@
+/*--------------
+3.4.8 404 Page
+----------------*/
+/*==== 404 Wrap ====*/
+.site-404-wrap .content-404-wrap {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.not-found-bg{
+   background-image: url("https://via.placeholder.com/660x536.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-attachment: scroll;
+   background-position: center center;
+}   
+.shape-wrap.site-404-wrap .custom-shape.pos-size-1 {
+   top:0;
+}
+
+@media (max-width:992px){
+   .site-404-wrap.shape-wrap .shape-group{
+      display:none;
+   }
+}

@@ -1,0 +1,38 @@
+/*--------------
+3.4.6 Comingsoon Page
+----------------*/
+/*==== Comingsoon Wrap ====*/
+.comingsoon-wrap {
+   .comingsoon-image {
+      position:relative;
+      background-image: url("https://via.placeholder.com/1024x900");
+      background-position: bottom;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      .overlay-icon{
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         .play-icon{
+            width:100px;
+            height:100px;
+            line-height:100px;
+         }
+      }
+   }
+   min-height:100vh;
+   .comingsoon-row {
+      min-height: 100vh;
+   }
+   input{
+      border-radius: 30px;
+   }
+}
+@media(max-width:991px){
+   .comingsoon-wrap .comingsoon-image{
+      min-height: 600px;
+   }
+}

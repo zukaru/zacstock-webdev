@@ -1,0 +1,25 @@
+/*--------------
+3.4.5 Search Page
+----------------*/
+/*===========Search Wrap============*/
+.search-contact.contact-sec{
+   margin-top: -4.7rem;
+}
+.search-contact .contact-form-wrap{
+   width:700px
+}
+@media (max-width:992px){
+   .search-contact.contact-sec .contact-form-wrap{
+      width:80%;
+   }
+}
+.search-ques-wrap{
+   .sec-link{
+      span{
+         width:40px;
+      }
+      a{
+         width:calc(100% - 40px);
+      }
+   }
+}

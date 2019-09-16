@@ -1,0 +1,73 @@
+/*--------------
+3.4.10 Session Page
+----------------*/
+/*========signup-1==========*/
+.signup-wrap{
+   min-height: calc(100vh - 131px);
+}
+
+/*========signup-2 & login==========*/
+.signup-2-wrap,.login-wrap{
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height:100vh;
+   height: 300px;
+   position:relative;
+   padding:2rem 0rem;
+   &:after{
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.4);
+      z-index: -1;
+   }
+   .contact-form-wrap{
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      margin-right: 8rem;
+   }
+}
+.signup-2-wrap{
+   background-image: url("https://via.placeholder.com/1920x1280");
+}
+.login-wrap{
+   background-image: url("https://via.placeholder.com/1920x1280");
+}
+.shape-wrap.session-wrap{ 
+   .custom-shape.pos-size-3{
+      left:105px;
+   }
+}
+.session-content{
+   width:485px;
+   border-radius:15px;
+   padding:3rem;
+   .form-control{
+      padding: 0.8rem 1rem;
+   }
+}
+
+@media (max-width:992px){
+   .signup-2-wrap,.login-wrap{
+      .contact-form-wrap{
+         margin-top: 0rem;
+         margin-bottom: 0rem;
+         margin-right: 0rem;
+      }
+   }      
+}
+
+@media(max-width:768px){
+   .session-wrap{
+      .session-content {
+         padding:1.5rem;
+         width:90%;
+      }
+   }      
+}  
+
+       

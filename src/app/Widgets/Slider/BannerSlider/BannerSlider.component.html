@@ -1,0 +1,19 @@
+<ngx-slick-carousel [config]="bannerSliderConfig">
+	<div class="banner-image-item banner-wrap" ngxSlickItem [ngStyle]="{'background-image': 'url(' + items.backgroundImage + ')'}" *ngFor="let items of bannerSliderContent">
+	   <div class="banner-overlay">
+	      <div class="container">
+	         <div class="banner-sec-wrap text-center">
+	            <div class="sec-title">
+	               <h2 class="text-white banner-title">{{items.title}}<a class="highlight">.</a></h2>
+	            </div>
+	            <div class="banner-btn">
+	               <a routerLink="{{items.btnlink}}" class="btn btn-secondary-grad btn-click-effect">{{items.btn}}</a>
+	            </div>
+               <!-- banner-btn wrap close -->
+	         </div>
+            <!-- banner-sec-wrap close -->
+	      </div>
+	   </div>
+	</div>
+   <!-- banner-image-item wrap close -->
+</ngx-slick-carousel>

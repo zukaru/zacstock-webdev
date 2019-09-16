@@ -1,0 +1,108 @@
+/*--------------
+3.4.12 Team Page
+----------------*/
+/*==========Team detail Content==========*/
+.team-detail-content{
+   .progress{
+      height: 10px;
+   }
+   .faq-wrap .faq-item .faq-ques-link{
+      font-size:1.2rem;
+   }
+   .faq-wrap .faq-item .faq-ques-link::after,.faq-wrap .faq-item .year{
+      color:$orange;
+   }
+}
+
+/*============ Team Detail Wrap =============*/
+.team-desc-font{
+   font-size:1.2em;
+}
+
+/*============ Team Detail Wrap =============*/
+.team-detail-wrap{
+   .detail-navs a{
+      background-color: $dark;
+      color: $white;
+
+   }
+    .detail-navs {
+      position: relative;
+    }
+    
+    .detail-navs .previous-blog,.detail-navs .next-blog {
+      width: 165px;
+    }
+    
+    .detail-navs a {
+      line-height: 61px;
+      display: block;
+      text-align: center;
+      background-color: #4f515f;
+      color: #fff;
+      font-family: Montserrat;
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: 700;
+      border-radius: 30px;
+    }
+    
+    .detail-navs a i {
+      opacity: 0;
+      visibility: hidden;
+      width: 0;
+      transition: all 0.4s ease;
+      
+    }
+    
+    .detail-navs a:hover i {
+      opacity: 1;
+      visibility: visible;
+      width: 3rem;
+    }
+    
+    .detail-navs::after {
+      width: calc(100% - 365px);
+      content: "";
+      height: 1px;
+      background-color: $gray-400;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }    
+}
+    
+ @media only screen and (max-width: 420px) {
+   .team-detail-wrap .previous-blog, .team-detail-wrap .next-blog {
+     width: 130px !important;
+   }
+   .team-detail-wrap .detail-navs  a {
+     line-height: 52px !important;
+     font-size: 22px !important;
+   }
+   .team-detail-wrap .detail-navs::after {
+     width: calc(100% - 285px) !important;
+   }
+ }
+/*===============|Add Additional meta|================*/
+.single-meta-wrap .meta-item {
+   flex: 1;
+ } 
+ .single-meta-wrap.project-meta .meta-item .meta-title::after {
+   content: ":";
+   display: inline-block;
+   margin: 0 5px;
+ } 
+ .single-meta-wrap .meta-title {
+   width: 7rem;
+ } 
+ .single-meta-wrap .meta-descp {
+   width: calc(100% - 7rem);
+   word-wrap: break-word;
+ } 
+ .single-meta-wrap .meta-descp,
+ .single-meta-wrap .meta-descp a {
+   font-weight: 600;
+ }
+

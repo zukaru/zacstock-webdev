@@ -1,0 +1,73 @@
+/*--------------
+3.4.3 Service Page
+----------------*/
+/*==========Services Page=========*/
+.services-info-wrap{
+	.service-item-content{
+		padding: 7rem 3rem;
+		background-color: rgba($gray-500,1);
+		transition:all 0.3s ease;
+		> div{
+			z-index:2;
+			position: relative;
+		}
+		&:hover{
+			background-color:rgba($primary,0.88);
+			.bg-text{
+				color:rgba($white,0.3);
+			}
+			h1,h2,h3,h4,h5,h6,p{
+				color:$white;
+			}
+		}
+	}
+	.service-item-image{
+		background-size: cover;
+		background-position: center center;			
+		position: relative;
+		.bg-text{
+			position:absolute;
+			left: calc(50% - 104px);
+			font-size: 350px;	
+			font-weight: bold;	
+			line-height: 300px;
+			top: calc(50% - 150px);
+			z-index:0;
+			color: $service-item-text;
+			visibility: visible;
+			transition:all 0.3s ease;
+		}
+	}
+}
+.services-static-sec{
+	.services-list{
+		column-count: 2;
+		column-gap:1rem;
+		li{
+			padding-left:2rem;
+			position: relative;
+			&::after{
+				content: "\f111";
+				display: inline-block;
+				font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+				font-size: 12px;
+				text-rendering: auto;
+				position: absolute;
+				left:10px;
+				top: 4px;
+			}
+		}
+	}
+}
+
+@media(max-width:480px){
+   .services-static-sec{
+      .services-list{
+         column-count: 1;
+         li{
+            margin-bottom: 1rem;
+         }
+      }
+   }
+}

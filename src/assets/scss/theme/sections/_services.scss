@@ -1,0 +1,51 @@
+/*--------------
+3.3.2 Services Section
+----------------*/
+.services-wrap{
+   .icon-set{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      margin: 0 auto 2rem;         
+      height: 100.7px;
+      width: 112.88px;
+      .service-svg-1,.service-svg-2{
+         position: absolute;
+         top: 0;
+         left: 0;
+      }
+   }
+   .icon-wrap {
+      position: relative;
+      i{
+         font-size: 2rem;
+         position: relative;
+         z-index: 1;
+      }
+   }
+}
+.services-wrap-v1,.services-page-content {
+   .service-svg-1,.service-svg-2{      
+      height: 100.7px;
+      width: 112.88px;
+   }
+   .svg-service {
+      fill: $svg-service-grid;
+   }
+   .service-item{
+      padding: 1.75rem;
+      box-shadow: 0 0 20px 0 rgba(0,0,0,0.07);
+      border-radius:10px;      
+      p{
+         font-size: 1rem;
+         line-height: 24px;
+      }
+   }
+   .icon-set{
+      .service-svg-1{
+         top: -12px;
+         left: 2px;
+      }
+   }
+}

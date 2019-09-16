@@ -1,0 +1,52 @@
+<app-banner pageTitle="Team"></app-banner>
+<div class="content py-0" *ngIf="teamContent">
+   <div class="team-page-wrap">
+      <div class="team-page-title-wrap pt-0">
+         <div class="custom-container">
+            <div class="team-page-title page-title text-center team-title-space bg-light">
+               <div class="container">
+                  <div class="page-title-head row">
+                     <div class="col-12 col-lg-9 mx-auto">
+                        <h4 class="page-sec-title font-weight-light font-italic mb-0">
+                           <span class="team-desc-font lh-14">We design digital platforms that elevate the customer experience for the world's most beloved brands...</span>
+                        </h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Team Page Title Wrap -->
+      <app-team-founder [teamFounder]="teamContent.founder"></app-team-founder>    
+       <!--Team Founder Info  -->
+      <div class="skills-wrap" dir="ltr">
+         <app-team-member [teamContent]="teamContent.team" [teamMemberSlideConfig]="teamSlideConfig" title="Our Team Members."></app-team-member>      
+      </div>
+      <!-- Skills Wrap Close -->
+      <div class="team-wrap team-v2 team-v2-space sec-pad">
+         <div class="container">
+           <app-grid-team-member [teamContent]="teamContent.team"></app-grid-team-member>
+         </div>         
+      </div>
+      <!-- Team Wrap -->
+      <div class="hiring-sec hiring-sec-space sec-pad bg-light">
+         <div class="container">
+            <div class="hiring-sec-info row">
+               <div class="col-12 col-md-10 mx-auto">
+                  <div class="call-in-action-wrap text-center">
+                     <h5 class="font-bold">Want to be one of Us ?</h5>
+                     <h3 class="mrgn-b-2 resp-title">We’ll be happy to see you in the <span class="highlight font-muli">Team </span>!</h3>
+                     <div class="button-wrap">
+                        <a href="javascript:void(0)" [routerLink]="['/contact']" routerLinkActive="active-link" class="btn btn-click-effect btn-secondary-grad">
+                           WE ARE HIRING
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Hiring Sec -->
+   </div>
+   <!-- team-page-wrap close -->
+</div>

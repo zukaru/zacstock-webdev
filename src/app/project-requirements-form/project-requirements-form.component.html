@@ -1,0 +1,632 @@
+
+
+
+  <form  (ngSubmit)="onSubmit(f)" #f="ngForm">
+ <div class="col-12 col-sm-6 form-group mrgn-b-2 mb-lg-5">
+    <div class="row">
+
+
+    <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+          <a class="highlight"><hr></a>
+          <h3>Project Requirements</h3>
+          <hr>
+        </div>
+
+
+
+
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+          <h5>Your Professional Contact Info</h5>
+        </div>
+
+
+
+
+
+
+
+      <!-- First Name -->
+        <div class="col-12 col-sm-6 form-group mrgn-b-2 mb-lg-5">
+            <label>First Name*</label>
+          <input
+          required
+          ngModel
+          name="first_name"
+          type="text"
+          class="form-control"
+          placeholder=""
+          #first_name="ngModel">
+
+          <small class="text-danger" *ngIf="!first_name.valid && first_name.touched" >
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              You must include a first name.
+          </small>
+        </div>
+
+        <!-- Last Name -->
+        <div class="col-12 col-sm-6 form-group mrgn-b-2 mb-lg-5">
+          <label>Last Name*</label>
+          <input
+          required
+          ngModel
+          name="lname"
+          type="text"
+          class="form-control"
+          placeholder=""
+          #lname="ngModel">
+
+          <small class="text-danger" *ngIf="!lname.valid && lname.touched">
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              You must include a last name.
+          </small>
+        </div>
+
+
+        <!-- Phone -->
+        <div class="col-12 col-sm-6 form-group mrgn-b-2 mb-lg-5">
+          <label>Phone Number*</label>
+          <input
+          required
+          name="phone"
+          ngModel
+          type="tel"
+          class="form-control"
+          pattern="[0-9]{10}"
+          placeholder=""
+          #phone="ngModel">
+
+          <small class="text-danger" *ngIf="!phone.valid && phone.touched">
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              You must include a phone number.
+          </small>
+        </div>
+
+
+        <!-- Email -->
+        <div class="col-12 col-sm-6 form-group mrgn-b-2 mb-lg-5">
+          <label>Email Address*</label>
+          <input
+          required
+          name="email"
+          ngModel
+          type="text"
+          class="form-control"
+          pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$"
+          placeholder=""
+          #email="ngModel">
+
+          <small class="text-danger" *ngIf="!email.valid && email.touched">
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              You must include an email address.
+          </small>
+        </div>
+
+
+        <div class="col-12  form-group mrgn-b-2 mb-lg-5">
+          <label>Job Title*</label>
+        <input
+        required
+        ngModel
+        name="job_title"
+        type="text"
+        class="form-control"
+        placeholder=""
+        #job_title="ngModel">
+
+        <small class="text-danger" *ngIf="!job_title.valid && job_title.touched" >
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            You must include your job title.
+        </small>
+      </div>
+
+
+
+
+
+
+        <!-- Organization Address -->
+
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+          <h5>Organization Info</h5>
+        </div>
+
+
+        <!-- Organization Name -->
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+          <label>Organization Name</label>
+          <input
+          ngModel
+          name="company"
+          type="text"
+          class="form-control"
+          placeholder=""
+          #fname="ngModel">
+        </div>
+
+
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+          <label>Street Address</label>
+          <input
+          ngModel
+          name="Address"
+          type="text"
+          class="form-control"
+          placeholder=""
+          #Address="ngModel">
+        </div>
+        <div class="col-12 col-sm-4 form-group mrgn-b-2 mb-lg-5">
+          <label>City</label>
+          <input
+          ngModel
+          name="City"
+          type="text"
+          class="form-control"
+          placeholder=""
+          #City="ngModel">
+        </div>
+        <div class="col-12 col-sm-4 form-group mrgn-b-2 mb-lg-5">
+          <label>State</label>
+          <input
+          ngModel
+          name="State"
+          type="text"
+          class="form-control"
+          placeholder=""
+          #State="ngModel">
+        </div>
+        <div class="col-12 col-sm-4 form-group mrgn-b-2 mb-lg-5">
+          <label>Zip</label>
+          <input
+          ngModel
+          name="Zip"
+          type="text"
+          class="form-control"
+          placeholder=""
+          #Zip="ngModel">
+        </div>
+
+
+        <!-- Tell Us About Your Organization -->
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+          <label>Briefly describe what your organization does.</label>
+          <input
+          name="describe_org"
+          ngModel
+          type="text"
+          class="form-control"
+          placeholder=""
+          #describe_org="ngModel">
+        </div>
+
+
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+          <label for="has_website">Does your organization already have a website?</label><br>
+          <input
+          ngModel
+          type="radio"
+          name="has_website"
+          value="Yes"
+          #has_website="ngModel"> Yes<br>
+          <input
+          ngModel
+          type="radio"
+          name="has_website"
+          value="No"
+          #has_website="ngModel"> No
+        </div>
+
+        <div *ngIf="has_website.value == 'Yes'">
+          <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+            <label>What's the website's address?</label>
+            <input
+              name="website_address"
+              ngModel
+              type="url"
+              class="form-control"
+              placeholder=""
+              #website_address="ngModel">
+          </div>
+
+          <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+              <label for="website_reno">How much work does the existing website need?</label><br>
+              <input
+              ngModel
+              type="radio"
+              name="website_reno"
+              value="Minor changes."
+              #website_reno="ngModel"> Minor changes.<br>
+              <input
+              ngModel
+              type="radio"
+              name="website_reno"
+              value="Moderate changes."
+              #website_reno="ngModel"> Moderate changes.<br>
+              <input
+              ngModel
+              type="radio"
+              name="website_reno"
+              value="Major overhaul. I want to start from scratch."
+              #website_reno="ngModel"> Major overhaul. I want to start from scratch.<br>
+
+          </div>
+        </div>
+
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5" *ngIf="has_website.value == 'No'">
+          <label for="domain_help">Do you need help purchasing a domain?</label><br>
+          <input
+          ngModel
+          type="radio"
+          name="domain_help"
+          value="Yes"
+          #domain_help="ngModel"> Yes<br>
+          <input
+          ngModel
+          type="radio"
+          name="domain_help"
+          value="No"
+          #domain_help="ngModel"> No
+        </div>
+
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+          <label for="social_media">Does your organization have any social media accounts?</label><br>
+          <input
+          ngModel
+          type="radio"
+          name="social_media"
+          value="Yes"
+          #social_media="ngModel"> Yes<br>
+          <input
+          ngModel
+          type="radio"
+          name="social_media"
+          value="No"
+          #social_media="ngModel"> No
+        </div>
+
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5" *ngIf="social_media.value == 'Yes'">
+          <label>List the social media links separated by commas.</label>
+          <input
+            name="social_media_links"
+            ngModel
+            type="text"
+            class="form-control"
+            placeholder=""
+            #social_media_links="ngModel">
+          </div>
+
+
+        <!--Design Info-->
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+          <h5>Design & Development Info</h5>
+        </div>
+
+
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+            <label for="brand_color">Do you have a brand color scheme?<br>
+            Visit this site if you need some inspiration.
+            <a class="highlight" target="_blank" href="https://colorhunt.co/">https://colorhunt.co/</a></label><br>
+            <input
+            ngModel
+            type="radio"
+            name="brand_color"
+            value="Yes"
+            #brand_color="ngModel"> Yes<br>
+            <input
+            ngModel
+            type="radio"
+            name="brand_color"
+            value="No"
+            #brand_color="ngModel"> No
+          </div>
+
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5" *ngIf="brand_color.value == 'Yes'">
+          <label>List your hexadecimal colors separated by commas.</label>
+          <input
+            name="hex_colors"
+            ngModel
+            type="text"
+            class="form-control"
+            placeholder=""
+            #hex_colors="ngModel">
+          </div>
+
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+            <label for="logo">Do you have a logo?</label><br>
+            <input
+            ngModel
+            type="radio"
+            name="logo"
+            value="Yes"
+            #logo="ngModel"> Yes<br>
+            <input
+            ngModel
+            type="radio"
+            name="logo"
+            value="No"
+            #logo="ngModel"> No
+          </div>
+
+
+
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+            <label>What's your website's objective?</label>
+            <input
+            name="website_objective"
+            ngModel
+            type="text"
+            class="form-control"
+            placeholder=""
+            #website_objective="ngModel">
+          </div>
+
+          <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+              <label>List a few amazing websites in a similar industry.</label><br>
+              <input
+              name="website_like1"
+              ngModel
+              type="url"
+              class="form-control"
+              placeholder="https://website1.com"
+              #website_like1="ngModel"><br>
+              <input
+              name="website_like2"
+              ngModel
+              type="url"
+              class="form-control"
+              placeholder="https://website2.com"
+              #website_like2="ngModel"><br>
+              <input
+              name="website_like3"
+              ngModel
+              type="url"
+              class="form-control"
+              placeholder="https://website3.com"
+              #website_like3="ngModel"><br>
+
+            </div>
+
+
+
+
+
+              <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+                <label>What do you especially like about these websites?</label><br>
+                <input
+                name="like_about_website"
+                ngModel
+                type="text"
+                class="form-control"
+                #like_about_website="ngModel">
+
+              </div>
+
+              <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+                  <label>What pages does your website need? (E.g., About, Services, Contact, Etc...)</label><br>
+                <input
+                name="pages_needed"
+                ngModel
+                type="text"
+                class="form-control"
+                placeholder=""
+                #pages_needed="ngModel">
+              </div>
+
+              <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+                  <label for="stock_images">Do you need us to purchase professional stock images?</label><br>
+                  <input
+                  ngModel
+                  type="radio"
+                  name="stock_images"
+                  value="Yes"
+                  #stock_images="ngModel"> Yes<br>
+                  <input
+                  ngModel
+                  type="radio"
+                  name="stock_images"
+                  value="No"
+                  #stock_images="ngModel"> No
+                </div>
+
+                <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+                    <label for="copywriting">Do you need copywriting services? </label><br>
+                    <input
+                    ngModel
+                    type="radio"
+                    name="copywriting"
+                    value="Yes"
+                    #copywriting="ngModel"> Yes<br>
+                    <input
+                    ngModel
+                    type="radio"
+                    name="copywriting"
+                    value="No"
+                    #copywriting="ngModel"> No
+                  </div>
+
+                  <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+                      <label for="selling_online">Will you sell products online? </label><br>
+                      <input
+                      ngModel
+                      type="radio"
+                      name="selling_online"
+                      value="Yes"
+                      #selling_online="ngModel"> Yes<br>
+                      <input
+                      ngModel
+                      type="radio"
+                      name="selling_online"
+                      value="No"
+                      #selling_online="ngModel"> No
+                    </div>
+
+                    <div class="col-12 form-group mrgn-b-2 mb-lg-5" *ngIf="selling_online.value == 'Yes'">
+                      <label>How many different products do you expect to sell on your website?</label>
+                      <input
+                          name="how_many_products"
+                          ngModel
+                          type="number"
+                          class="form-control"
+                          placeholder=""
+                          #how_many_products="ngModel">
+                      </div>
+
+                      <div class="col-12 form-group mrgn-b-2 mb-lg-5" *ngIf="selling_online.value == 'Yes'">
+                        <label for="help_uploading_products">Do you need help uploading your product assortment? </label><br>
+                        <input
+                        ngModel
+                        type="radio"
+                        name="help_uploading_products"
+                        value="Yes"
+                        #help_uploading_products="ngModel"> Yes<br>
+                        <input
+                        ngModel
+                        type="radio"
+                        name="help_uploading_products"
+                        value="No"
+                        #help_uploading_products="ngModel"> No
+                      </div>
+
+                      <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+                        <label for="want_cms">Would you like to manage your website's content via a content management system?</label><br>
+                        <input
+                        ngModel
+                        type="radio"
+                        name="want_cms"
+                        value="Yes"
+                        #like_cms="ngModel"> Yes<br>
+                        <input
+                        ngModel
+                        type="radio"
+                        name="want_cms"
+                        value="No"
+                        #want_cms="ngModel"> No
+                      </div>
+
+                      <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+                        <label for="deadline">What's your deadline for this project?</label><br>
+                        <input
+                        ngModel
+                        type="radio"
+                        name="deadline"
+                        value="ASAP"
+                        #deadline="ngModel"> ASAP<br>
+                        <input
+                        ngModel
+                        type="radio"
+                        name="deadline"
+                        value="A couple weeks."
+                        #deadline="ngModel"> A couple weeks.<br>
+                        <input
+                        ngModel
+                        type="radio"
+                        name="deadline"
+                        value="A couple months."
+                        #deadline="ngModel"> A couple months.<br>
+                        <input
+                        ngModel
+                        type="radio"
+                        name="deadline"
+                        value=" I only need an estimate for now. Thanks!"
+                        #deadline="ngModel"> I only need an estimate for now. Thanks! <br>
+                      </div>
+
+                      <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+                          <label for="budget_range">What's the budget range for this project?</label><br>
+                          <input
+                          ngModel
+                          type="radio"
+                          name="budget_range"
+                          value="$250 - $2,500"
+                          #budget_range="ngModel"> $250 - $2,500<br>
+                          <input
+                          ngModel
+                          type="radio"
+                          name="budget_range"
+                          value="$2,500 - $5,000"
+                          #budget_range="ngModel"> $2,500 - $5,000<br>
+                          <input
+                          ngModel
+                          type="radio"
+                          name="budget_range"
+                          value="$5,000 - $10,000"
+                          #budget_range="ngModel"> $5,000 - $10,000<br>
+                          <input
+                          ngModel
+                          type="radio"
+                          name="budget_range"
+                          value="$10,000 and up."
+                          #budget_range="ngModel"> $10,000 and up.<br>
+                          <input
+                          ngModel
+                          type="radio"
+                          name="budget_range"
+                          value="I'm researching rates to create a budget."
+                          #budget_range="ngModel"> I'm researching rates to create a budget.<br>
+                        </div>
+
+                        <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+                            <label>Do you have any questions or concerns?</label><br>
+                          <input
+                          name="questions_concerns"
+                          ngModel
+                          type="text"
+                          class="form-control"
+                          placeholder=""
+                          #questions_concerns="ngModel">
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Form Button -->
+        <div class="col-12">
+          <button class="btn btn-dark" type="submit" [disabled]="!f.valid && f.touched">Send</button>
+        </div><br>
+        <br>
+
+
+        <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+          <p class="text-danger" *ngIf="!first_name.valid && first_name.touched" >
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              You must include a first name.
+          </p>
+
+          <p class="text-danger" *ngIf="!lname.valid && lname.touched">
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              You must include a last name.
+          </p>
+
+          <p class="text-danger" *ngIf="!phone.valid && phone.touched">
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              You must include a phone number.
+          </p>
+
+          <p class="text-danger" *ngIf="!email.valid && email.touched">
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              You must include an email address.
+          </p>
+
+          <p class="text-danger" *ngIf="!job_title.valid && job_title.touched" >
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              You must include your job title.
+          </p>
+
+          <p style="color: green" *ngIf="submitted">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            Thanks, {{ first_name.value }}! Your form was submitted.
+          </p>
+        </div>
+        </div>
+      </div>
+
+   </form>

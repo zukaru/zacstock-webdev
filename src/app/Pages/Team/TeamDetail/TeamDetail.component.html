@@ -1,0 +1,130 @@
+<ng-container *ngIf="teamContent">
+   <app-banner-v2 pageTitle="{{teamContent.name}}"></app-banner-v2>
+   <div class="content sec-pad">
+      <div class="team-detail-wrap shape-wrap">
+         <div class="shape-group">
+            <span class="custom-shape pos-size-1">                     
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 482.073 504.275">
+                  <path xmlns="http://www.w3.org/2000/svg" data-name="Custom Polygon 4" class="svg-gray" d="M229.2,75c19.245-33.333,67.358-33.333,86.6,0L465.195,333.753c19.245,33.333-4.811,75-43.3,75H123.111c-38.49,0-62.546-41.667-43.3-75Z" transform="translate(351.63 -86.448) rotate(68)"/>
+               </svg>
+            </span>
+            <span class="custom-shape pos-size-2">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118.742 111.528">
+                  <path data-name="Custom Polygon 3" class="svg-border svg-border-3" d="M57.148,30a20,20,0,0,1,34.641,0l29.85,51.7a20,20,0,0,1-17.321,30h-59.7A20,20,0,0,1,27.3,81.7Z" transform="translate(123.95 131.338) rotate(-172)"/>
+               </svg>
+            </span>
+            <span class="custom-shape pos-size-3">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.413 60.176">
+                  <path data-name="Custom Polygon 2" class="svg-border svg-border-2" d="M25.109,16.5a11,11,0,0,1,19.053,0L55.1,35.452a11,11,0,0,1-9.526,16.5H23.693a11,11,0,0,1-9.526-16.5Z" transform="translate(45.416 -13.816) rotate(68)"/>
+               </svg>
+            </span>
+            <span class="custom-shape pos-size-4">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.413 60.176">
+                  <path data-name="Custom Polygon 2" class="svg-border svg-border-1" d="M25.109,16.5a11,11,0,0,1,19.053,0L55.1,35.452a11,11,0,0,1-9.526,16.5H23.693a11,11,0,0,1-9.526-16.5Z" transform="translate(45.416 -13.816) rotate(68)"/>
+               </svg>
+            </span>
+         </div>
+         <!-- shape group close -->
+         <div class="container">
+            <div class="membersingle-info team-detail-space">
+               <div class="row align-items-start">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-4 mrgn-b-2">
+                     <div class="member-meta single-meta-wrap">
+                        <div class="image-wrap mrgn-b-2">
+                           <img src="{{teamContent.image1}}" width="570" height="590" alt="Team single image">
+                        </div>
+                        <div class="social-links social-links-sm mb-4">
+                           <app-social-icons [socialIcons]="teamContent.socialIcons"></app-social-icons> 
+                        </div>
+                        <div class="member-content">
+                           <ul class="p-0">
+                              <li class="meta-item d-flex mb-4">
+                                 <span class="meta-title">Birth Date </span>
+                                 <span class="meta-descp font-weight-bold">{{teamContent.birthDate}} </span>
+                              </li>
+                              <li class="meta-item d-flex mb-4">
+                                 <span class="meta-title">Phone </span>
+                                 <span class="meta-descp font-weight-bold">{{teamContent.phone}} </span>
+                              </li>
+                              <li class="meta-item d-flex mb-4">
+                                 <span class="meta-title">Email </span>
+                                 <span class="meta-descp font-weight-bold">{{teamContent.email}}  </span>
+                              </li>
+                              <li class="meta-item d-flex mb-4">
+                                 <span class="meta-title">Location </span>
+                                 <span class="meta-descp font-weight-bold">{{teamContent.location}}  </span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-8 mrgn-b-2">
+                     <div class="team-detail-content">
+                        <div class="detail-about-content mb-5">
+                           <div class="sec-title mrgn-b-2">
+                              <h3>About</h3>
+                           </div>
+                           <div class="sec-content">
+                              <p class="lh-17">{{teamContent.about}}</p>
+                           </div>
+                        </div>
+                        <div class="single-skills-wrap mb-4">
+                           <div class="sec-title mrgn-b-2">
+                              <h3>Skills</h3>
+                           </div>
+                           <div class="skills-wrap row">
+                              <div class="col-12 col-lg-6 mb-4" *ngFor="let skills of teamContent.skills">
+                                 <div class="prog-title mb-2 font-smx">{{skills.title}}</div>
+                                 <div class="progress">
+                                    <div class="progress-bar" role="progressbar" [style.width.%]="skills.value"  attr.aria-valuenow={{skills.value}} aria-valuemin="0" aria-valuemax="100"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="qualification-wrap faq-wrap">
+                           <div class="sec-title mrgn-b-2">
+                              <h3>Educational Background</h3>
+                           </div>
+                           <div class="faq-item accordion" id="teamAccordion1">
+                              <div class="faq-card card mb-2" *ngFor="let education of teamContent.educationBackground">
+                                 <div class="card-header p-0" id="{{education.headingId}}">
+                                    <a class="faq-ques-link d-block py-2 px-4 {{education.collapsedClass}}" data-toggle="collapse" attr.data-target="#{{education.collapseId}}" aria-expanded="false" aria-controls="education.collapseId">
+                                      {{education.qualification}}
+                                    </a>
+                                 </div>
+                                 <div id="{{education.collapseId}}" class="collapse {{education.showClass}}" aria-labelledby="education.headingId" data-parent="#teamAccordion1">
+                                    <div class="card-body py-2 px-4">
+                                       <p class="mb-2 year">{{education.yearPassOut}}</p>
+                                       <p class="mb-0">{{education.qualificationDescription}}</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- membersingle info wrap close -->
+            <div class="detail-navs d-flex justify-content-between align-items-center">
+               <div class="previous-blog mr-auto">
+                  <div class="prev-blog-link">
+                     <a class="prev-post" href="javascript:void(0);" rel="prev">
+                        <i class="fas fa-angle-left"></i>Prev
+                     </a>
+                  </div>
+               </div>
+               <div class="next-blog ml-auto">
+                  <div class="next-blog-link">
+                     <a class="next-post" href="javascript:void(0);" rel="">Next
+                        <i class="fas fa-angle-right"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <!-- detail-navs wrap close -->
+         </div>
+      </div>
+      <!-- team detail wrap close -->
+   </div>
+</ng-container>

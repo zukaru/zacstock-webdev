@@ -1,0 +1,33 @@
+<div class="row">
+   <div class="col-12 col-md-11 col-xl-10 mx-auto">
+      <div class="row align-items-center">
+         <div class="col-12 col-xl-6 mb-4 mb-xl-0">
+            <div class="img-grid-wrap custom-column-grid">
+               <div class="grid-item grid-item-space" *ngFor="let image of exploreStudio">
+                  <div class="image-mason-item" [ngStyle]="{'background-image': 'url(' + image + ')'}"></div>
+               </div>
+            </div>
+         </div>
+         <div class="col-12 col-sm-12 col-md-12 col-xl-6 px-3 px-xl-5 mx-auto">
+            <div class="explore-studio-sec">
+               <div class="sec-title">
+                  <h2 class="grid-item-space d-block title">The Process</h2>
+               </div>
+               <div class="sec-content mrgn-b-2">
+                  <h4 class="font-weight-normal lh-14"><a class="highlight">1.</a> Discovery</h4>
+                  <h4 class="font-weight-normal lh-14"><a class="highlight">2.</a> Design</h4>
+                  <h4 class="font-weight-normal lh-14"><a class="highlight">3.</a> Develop</h4>
+                  <h4 class="font-weight-normal lh-14"><a class="highlight">4.</a> Launch</h4>
+                  <h4 class="font-weight-normal lh-14"><a class="highlight">5.</a> Post-Launch</h4>
+
+              </div>
+            </div>
+            <!-- explore-studio-sec wrap close -->
+            <div class="explore-std-btn">
+               <a  [routerLink]="['/services']" class="btn btn-secondary-grad btn-click-effect">See our services</a>
+            </div>
+            <!-- explore-std-btn wrap close -->
+         </div>
+      </div>
+   </div>
+</div>

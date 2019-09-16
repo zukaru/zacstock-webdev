@@ -1,0 +1,23 @@
+<ul class="navbar-nav mr-n3 mx-lg-auto px-0 {{stickyClass}}">
+   <li class="nav-item" [ngClass]="{'menu-item-has-child': menuItem.type == 'sub'}" *ngFor="let menuItem of menuItems.getMainMenu()">
+      <a class="nav-link" [routerLink]="['/', menuItem.state]" routerLinkActive="active-link" *ngIf="menuItem.type == 'link'">{{ menuItem?.name }}
+      </a>
+      <a class="nav-link" *ngIf="menuItem.type == 'sub'" href="javascript:void(0);">{{ menuItem?.name }}
+      </a>
+      <ul class="sub-menu list-unstyled pr-lg-0" *ngIf="menuItem.type == 'sub' && menuItem?.children">
+         <li class="nav-item" *ngFor="let grandchildItem of menuItem?.children" [ngClass]="{'menu-item-has-child': grandchildItem.type == 'subchild'}">
+            <a class="nav-link" [routerLink]="['/'+menuItem.state+'/'+grandchildItem.state]" routerLinkActive="active-link" *ngIf="grandchildItem.type == 'link'">{{ grandchildItem?.name }}
+            </a>
+            <a class="nav-link" href="javascript:void(0);" *ngIf="grandchildItem.type == 'subchild'">{{ grandchildItem?.name }}
+            </a>
+            <ul class="sub-menu list-unstyled">
+               <li class="nav-item" *ngFor="let subChild of grandchildItem.children">
+                  <a class="nav-link" *ngIf="subChild.type == 'link'" routerLinkActive="active-link" [routerLink]="['/'+grandchildItem.state+'/'+subChild.state]">
+                     {{subChild.name}}
+                  </a>
+               </li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+</ul>

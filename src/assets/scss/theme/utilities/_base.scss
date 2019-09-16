@@ -1,0 +1,310 @@
+/*--------------
+3.1.1 Base
+----------------*/
+/*=============|Custom Background Color Classes|=============*/
+
+.bg-primary-gradient{
+   background:$primary-gradient;
+}
+.bg-secondary-gradient{
+   background: $secondary-gradient;
+}
+.bg-success-gradient{
+   background: $success-gradient;
+}
+.bg-error-gradient{
+   background: $error-gradient;
+}
+.bg-purple{
+   background-color:$black;
+}
+.primary-overlay,.dark-overlay{
+   h1,h2,h3,h4,h5,h6,p,span,div,li,a{
+      color: $white;
+   }
+}
+.banner-bg{
+   position: relative;
+   background-image: url("/assets/images/succulentCoffeeCotrollerTable.jpg");
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+   &::after{
+      content: "";
+      left:0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      z-index: 0;
+      background: $banner-overlay-color;
+   }
+   >div{
+      z-index: 1;
+      position: relative;
+   }
+}
+body .footer-bg{
+   background-color:$gray-900 ;
+}
+.banner-bg,.footer-bg{
+   h1,h2,h3,h4,h5,h6,p,span,div,li,a,i{
+      color: $white;
+   }
+}
+.primary-overlay{
+   background-color: rgba(theme-color("primary"), .9);
+   h1,h2,h3,h4,h5,h6,p,span,div,li,a{
+      color: $white;
+   }
+}
+.dark-overlay{
+   background-color:rgba(theme-color("dark"),.64)
+}
+/*===============|Custom Text Color Classes|================*/
+.text-purple{
+   color: $orange;
+}
+.text-primary-gradient{
+   color: $primary-gradient;
+}
+.text-secondary-gradient{
+   color: $secondary-gradient;
+}
+.text-success-gradient{
+   color: $success-gradient;
+}
+.text-error-gradient{
+   color: $error-gradient;
+}
+.all-text-white{
+   h1,h2,h3,h4,h5,h6,p,span,div,li,label,input,a,i{
+      color:$white;
+   }
+}
+.bg-purple-2{
+   background-color:$orange;
+}
+body .slick-dots-purple-2{
+   .slick-dots li.slick-active button{
+      background-color:$orange;
+   }
+}
+
+/*==========|Custom Box Shadow|===========*/
+.theme-box-shadow{
+   box-shadow: $theme-box-shadow;
+}
+.font-w-500{
+   font-weight: 500 !important;
+}
+.font-w-600{
+   font-weight: 600 !important;
+}
+.font-w-800{
+   font-weight: 800 !important;
+}
+.font-w-900{
+   font-weight: 900 !important;
+}
+
+/*Font Classes*/
+.font-montserrat {
+   font-family: $font-montserrat;
+}
+.font-muli{
+   font-family:$sec-font-family;
+}
+
+/*==========|Custom Margin|===========*/
+.mrgn-b-2{
+   margin-bottom: 2rem;
+}
+
+/*==========|global font sizes|===========*/
+.font-smx{
+	font-size: 0.9em;
+}
+.font-mdx{
+	font-size: 1.2em;
+}
+.font-lgx{
+	font-size: 1.65em;
+}
+.font-xlx{
+	font-size:2.5em;
+}
+.font-2x{
+	font-size:2em;
+}
+
+/*==========|about page heading font size|===========*/
+.sec-title{
+   .about-cus-font{
+      font-size: 1.5em;
+   }
+}
+@media(max-width:1500px){
+   .sec-title .about-cus-font {
+      font-size: 1.3em;
+  }
+}
+
+/*==========|text-ellipse|===========*/
+.text-ellipse {
+   text-overflow: ellipsis;
+   width: 100%;
+   overflow: hidden;
+   white-space: nowrap;
+}
+
+/*==========|shadow-box|===========*/
+.shadow-box{
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.07);
+}
+.shadow-box-lg{
+   box-shadow: 0 32px 54px 0 rgba(0, 0, 0, 0.17);
+}
+
+/*==========|Link Transition|===========*/
+a{
+   transition: all 0.3s ease;
+}
+
+/*==========|breadcrumb-bg|===========*/
+.breadcrumb{
+   background: none;
+}
+
+/*==========|breadcrumb|===========*/
+.banner-bg{
+   .breadcrumb{
+      .breadcrumb-item{
+         &.active, &::before{
+            color:$white;
+         }
+      }
+   }
+}
+
+/*==========|Line height|===========*/
+.lh-17{
+   line-height:1.7;
+}
+.lh-14{
+   line-height: 1.4;
+}
+
+/*==========|text foreground|===========*/
+.text-foreground{
+   position: relative;
+   .number-wrap{
+      position: absolute;
+      top: -60px;
+      right: 0;
+      left: -4px;
+      z-index: 0;
+      .number-count{
+         font-size:7rem;
+         color: rgba($body-color, 0.15);
+      }
+   }
+   .text-wrap{
+      position: relative;
+      z-index: 3;
+      .text-title{
+         font-size:2rem;
+      }
+   }
+}
+
+/*==========|footer social|===========*/
+.social-links{
+   margin:0 -0.1875rem;
+   li{
+      padding: 0 0.1875rem;
+      margin-bottom: 0.65rem;
+   }
+   a{
+      display: inline-block;
+      width: 33px;
+      height: 33px;
+      text-align: center;
+      line-height: 33px;
+      border-radius: 100%;
+      background-color:$white;
+      transition: $theme-transition;
+      box-shadow: 0 2px 5px 0 rgba($dark,0.18);
+      i {
+         color: $footer-social-icon;
+      }
+      &:hover {
+         background-color: $footer-social-icon ;
+         i {
+            color: $white;
+         }
+      }
+   }
+}
+.social-links-sm{
+   margin:0 -0.1rem;
+   li{
+      padding:0 0.1rem;
+   }
+   a{
+      width:27px;
+      height:27px;
+      line-height:27px;
+      i{
+         font-size:13px;
+      }
+   }
+}
+.social-share{
+   margin:0 -0.5rem;
+   li{
+      padding: 0 0.5rem;
+   }
+   i {
+      color: $footer-social-icon;
+   }
+}
+
+/*==========|sticky element|===========*/
+.sticky-elem{
+   position: sticky;
+   top: 5rem;
+}
+
+/*==========|social style |===========*/
+.square-50 {
+   display: inline-block;
+   font-size: 20px;
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
+   width: 40px;
+   vertical-align: middle;
+
+}
+.bg-facebook{
+   background-color: #3B5998;
+}
+.bg-twitter{
+   background-color:#33CCFF;
+}
+.bg-linkedin{
+   background-color:#4875B4;
+}
+/*==========|rtl btn class |===========*/
+.btn-rtl-bdr{
+   .btn-square{
+      padding-left:0px;
+   }
+}
+
+/*==========|bg classes |===========*/
+
+.light-bg{
+   background: $gray-500;
+}

@@ -1,0 +1,133 @@
+<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+   <div class="row">
+      <div class="col-12 col-sm-6 form-group mrgn-b-2 mb-lg-5">
+         <input
+         required
+         ngModel
+         name="first_name"
+         type="text"
+         class="form-control"
+         placeholder="First Name*"
+         #first_name="ngModel">
+         <small class="text-danger" *ngIf="!first_name.valid && first_name.touched">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            You must include a first name.
+         </small>
+      </div>
+      <!-- form group close -->
+      <div class="col-12 col-sm-6 form-group mrgn-b-2 mb-lg-5">
+
+         <input
+         required
+         name="lname"
+         ngModel
+         type="text"
+         class="form-control"
+         placeholder="Last Name*"
+         #lname="ngModel">
+
+         <small class="text-danger" *ngIf="!lname.valid && lname.touched">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            You must include a last name.
+         </small>
+      </div>
+
+
+
+      <!-- form group close -->
+      <div class="col-12 col-sm-6 form-group mrgn-b-2 mb-lg-5">
+         <input
+         required
+         name="email"
+         ngModel
+         type="text"
+         class="form-control"
+         pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$"
+         placeholder="Email Address*"
+         #email="ngModel">
+
+         <small class="text-danger" *ngIf="!email.valid && email.touched">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            You must include a valid email address.
+         </small>
+      </div>
+      <!-- form group close -->
+      <div class="col-12 col-sm-6 form-group mrgn-b-2 mb-lg-5">
+
+         <input
+         required
+         name="phone"
+         ngModel
+         type="tel"
+         class="form-control"
+         pattern="[0-9]{10}"
+         placeholder="Phone*"
+         #phone="ngModel">
+
+         <small class="text-danger" *ngIf="!phone.valid && phone.touched">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            You must include a phone number.
+         </small>
+      </div>
+
+      <div class="col-12  form-group mrgn-b-2 mb-lg-5">
+          <input
+          ngModel
+          name="company"
+          type="text"
+          class="form-control"
+          placeholder="Organization Name"
+          #fname="ngModel">
+
+       </div>
+
+      <!-- form group close -->
+      <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+
+         <input
+         required
+         name="message"
+         ngModel
+         type="text"
+         class="form-control"
+         placeholder="Message*"
+         #message="ngModel">
+
+         <small class="text-danger" *ngIf="!message.valid && message.touched">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            You must include a message.
+         </small>
+      </div>
+      <!-- form group close -->
+      <div class="col-12">
+         <button class="btn btn-dark" type="submit" [disabled]="!f.valid">Send</button>
+      </div>
+      <div class="col-12 form-group mrgn-b-2 mb-lg-5">
+        <p class="text-danger" *ngIf="!first_name.valid && first_name.touched" >
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            You must include a first name.
+        </p>
+
+        <p class="text-danger" *ngIf="!lname.valid && lname.touched">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            You must include a last name.
+        </p>
+
+        <p class="text-danger" *ngIf="!phone.valid && phone.touched">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            You must include a phone number.
+        </p>
+
+        <p class="text-danger" *ngIf="!email.valid && email.touched">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            You must include an email address.
+        </p>
+
+        <p style="color: green" *ngIf="submitted">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          Thanks, {{ first_name.value }}! Your form was submitted.
+        </p>
+      </div>
+   </div>
+</form>
+<!-- form close -->

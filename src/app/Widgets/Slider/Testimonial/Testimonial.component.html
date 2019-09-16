@@ -1,0 +1,17 @@
+<ngx-slick-carousel [config]="testimonialConfig">
+   <div ngxSlickItem class="testimonial-item" *ngFor="let testimonial of testimonialContent">
+      <div class="sec-title-wrap d-flex align-items-center">
+         <div class="image-wrap mr-4 mb-4">
+            <img class="rounded-circle" src="{{testimonial.image}}" alt="testimonial image" width="105" height="50">
+         </div>
+         <div class="sec-title">
+            <h5 class="font-weight-bold mb-1">{{testimonial.name}}</h5>
+            <span class="font-size-sm">{{testimonial.founderOf}}</span>
+         </div>
+      </div>
+      <div class="sec-title testimonial-content">
+         <p class="mb-0">{{testimonial.content}}</p>
+      </div>
+   </div>
+   <!-- testimonial-item wrap close -->
+</ngx-slick-carousel>

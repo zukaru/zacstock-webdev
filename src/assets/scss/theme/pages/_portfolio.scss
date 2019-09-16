@@ -1,0 +1,99 @@
+/*--------------
+3.4.4 Portfolio Page
+----------------*/
+/*========= portfolio css ============*/
+.banner-sec-wrap{
+   .portfolio-banner{
+      padding:7rem 1rem;
+   }
+}   
+.portfolio-tab {
+   .nav-pills .nav-link {
+      border-radius: 1.625rem;
+      font-weight: bold;
+   }
+}
+.portfolio-client-wrapper{
+   .sec-title{
+      overflow: hidden;
+      width: 100%;
+   }
+}
+.bdr-bg{
+   display: inline-block;
+   position:relative;
+   z-index:2;
+   &::after,&::before{
+      position:absolute;
+      background-color:$secondary;
+      width:100%;
+      opacity:0.3;
+      top: calc(50% - 0.5px);
+      height:1px;
+      content:'';
+   }
+   &::before{
+      left:100%;
+   }
+   &::after{
+      right: 100%;
+   }
+}
+.banner-sec-wrap{
+   .play-icon{
+      width: 130px;
+      height: 130px;
+      line-height: 130px;
+      display: inline-block;
+   }      
+}
+
+/*======== portfolio detail style ===========*/
+
+.other-portfolio-wrap {
+   .other-portfolio-content {
+      .image-wrap{
+         position:relative;
+         border-radius: 10px;
+         img{
+            border-radius: 10px;
+         }
+         &:hover{
+            .overlay-content{
+               overflow: hidden;
+               background-color:rgba(0,0,0,0.5);
+               .btn-primary{
+                  transform:scaleY(1);
+                  opacity: 1;
+               }
+            }
+         }
+      }
+      .overlay-content{
+         background-color:rgba(0,0,0,0);
+         opacity: 1;
+         visibility: visible;
+         .btn-primary{
+            transition: all .4s ease;
+            transform:scaleY(0.6);
+            opacity: 0;
+         }
+      }
+   }
+}
+
+.portfolio-tabs-section{
+   .portfolio-grid .row:nth-child(n+3){
+      max-height: 0;
+      opacity:0;
+      visibility: hidden;
+      transition: all 0.4s ease;
+   }
+   &.load-more-content{
+      .portfolio-grid .row:nth-child(n+3){
+         max-height: 10000px;
+         opacity: 1;
+         visibility: visible;
+      }
+   }
+}

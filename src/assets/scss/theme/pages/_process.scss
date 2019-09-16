@@ -1,0 +1,79 @@
+/*--------------
+3.4.11 Process Page
+----------------*/
+/*======================Process Wrap===============*/
+.process-list{
+   .row{
+      &:nth-child(2n){
+         flex-direction: row-reverse;
+         .side-border:after{
+            left:auto;
+            right: 90%;
+         }
+         .list-content{
+            text-align: right;
+         }
+      }
+      .side-border{
+         position: relative;
+         &:after{
+            content: "";
+            width: 122px;
+            height: 3px;
+            background: $primary;
+            position: absolute;
+            top: 70px;
+            left: 90%;
+         }
+      }
+   }
+   .image-wrap{
+      box-shadow: 0 0 20px 0 rgba($dark, 0.2);
+      border-radius: 10px;
+      img{
+         border-radius: 10px;
+      }
+   }
+}
+@media(max-width:991px){
+   .process-list .row .side-border:after {
+      content: none;
+   }
+   .process-list .row:nth-child(2n) .list-content{
+      text-align: left;
+   }
+}
+.process-step-wrap{
+   .text-foreground{
+      .number-wrap{
+         top: -30px;
+         .number-count{
+            font-size:4.8rem;
+         }
+      }
+   }      
+   .process-step-content{
+      transition: all 0.4s ease;
+      border-radius: 10px;
+      &:hover{
+         background-color:$body-color ;
+         .sec-content p,.text-title{
+          color: $white;
+         }
+         .number-count{
+            color: rgba($white, 0.4);
+         }
+      }
+   }
+} 
+
+
+@media (max-width:400px){
+   .approach-wrap{
+      .approach-image{
+         .sec-title .title{
+            font-size:2rem;
+         }
+      } 
+   }     
+}  

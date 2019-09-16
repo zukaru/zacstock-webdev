@@ -1,0 +1,38 @@
+/*--------------
+3.3.9 Subscribe Section
+----------------*/
+.subscribe-wrap .subscribe-form,.search-widget-form{
+   position: relative;
+   .search-input{
+      height: 77px;
+      padding-right: 12rem;
+      box-shadow: 0 14px 24px 0 rgba($dark,0.03);			
+      border-radius: 10rem;
+   }      
+   .subscribe-btn{
+      position: absolute;
+      right: 45px;
+      top: 12px;
+      input[type="submit"].btn{
+         height: 51px;
+         font-family: $sec-font-family;
+         padding-left:1rem;
+         padding-right:1rem;
+      }
+   }
+}
+.search-widget-form{
+   .search-input{
+      height: 56px;
+      padding-right: 7.5rem;      
+   }
+   .search-btn{
+      right: 9px;
+      top: 7px;
+      input[type="submit"].btn{
+         height: 42px;
+         padding: 0.2rem 1rem;
+         font-size: 0.7rem;
+      }
+   }
+}

@@ -1,0 +1,14 @@
+<div class="footer-sec footer-sec-2 ml-lg-4">
+   <div class="footer-widget-area">
+      <div class="footer-menu-list">
+         <div class="footer-sec-title pb-3">
+            <h6>{{menu?.name}}</h6>
+         </div>
+         <div class="footer-menu footer-menu1">
+            <ul class="menu-list list-unstyled px-0 m-0">
+               <li *ngFor="let subMenu of menu.children"><a *ngIf="subMenu.type == 'link'" [routerLink]="['/'+subMenu.state]" routerLinkActive="active-link"> {{subMenu.name}}</a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</div>

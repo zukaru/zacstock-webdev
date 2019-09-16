@@ -1,0 +1,30 @@
+<div class="grid-items-wrap custom-column-grid">
+   <ng-container *ngFor="let customGrid of gridOverlay; let i = index">
+      <div class="grid-item overlay-wrap grid-item-space" *ngIf="i<3">
+         <div class="image-mason-item size{{customGrid.imageSize}}" [ngStyle]="{'background-image': 'url(' + customGrid.image + ')'}"></div>
+         <div class="overlay-content dark-overlay d-flex align-items-end">
+            <div class="overlay-holder">
+               <div class="meta-info text-b-space">
+                  <span class="category text-white">
+                     <a class="text-white" href="javascript:void(0);">{{customGrid.category}}</a>
+                  </span>
+               </div>
+               <div class="sec-title">
+                  <h4 class="{{customGrid.headingFontClass}}"><a (click)="gridOverlayContent(customGrid)"  href="javascript:void(0);">{{customGrid.title}}</a></h4>
+               </div>
+               <div class="meta-info mrgn-b-2">
+                  <span class="author text-white">
+                     by <a class="text-white" href="javascript:void(0);">{{customGrid.name}}</a>
+                  </span>
+                  <span class="date text-white">
+                     Posted On <a class="text-white" href="javascript:void(0);">{{customGrid.date}}</a>
+                  </span>
+               </div>
+               <div class="read-more">
+                  <a (click)="gridOverlayContent(customGrid)" class="btn btn-translucent btn-sm" href="javascript:void(0);">Read More</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </ng-container>
+</div>

@@ -1,0 +1,87 @@
+/*==============|4.0 Responsive|===============*/
+@media(max-width:1199px){
+   .custom-container {
+      padding-left: 4%;
+      padding-right: 4%;
+   }
+   .display-1 {
+      font-size: 4rem;
+   }
+   .section-cover {
+      margin-bottom: 210px;
+   }
+   .section-cover .icon-wrap {
+      bottom: -208px;
+   }
+   .section-cover .icon-wrap::before {
+      height: 210px;
+   }
+   .shape-wrap .shape-group-hide{
+      display:none;
+   }
+   .banner-bg{
+      background-attachment:unset;
+   }
+}
+@media(max-width:991px){
+   .resp-menu-opened{
+      overflow:hidden;
+   }
+   /*About Brands*/
+   .brands-wrap .brands-content-wrap{
+      padding: 2rem;
+      min-height: 400px;
+   }
+   .banner-title{
+      font-size: 3.7rem;
+   }
+}
+@media(max-width:767px){
+   .custom-column-grid {
+      column-count: 1;
+      column-gap: 0;
+   }
+   .explore-studio .grid-item:nth-child(1) .image-mason-item {
+      height: 325px;
+   }
+   .testimonial-slider-v1 .testimonial-item{
+      margin-left: 2rem;
+      margin-right: 2rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+   }
+}
+@media(max-width:576px){
+   .contact-sec .contact-form-wrap{
+      width: 95%;
+      padding: 8%;
+   }
+   .custom-container {
+      padding-left: 1rem;
+      padding-right: 1rem;
+   }
+   .section-cover.py-7{
+      padding:0.5rem !important;
+   }
+   .subscribe-wrap .subscribe-form .search-input{
+      padding-right: 1.9rem;
+   }
+   .subscribe-wrap .subscribe-form .subscribe-btn{
+      position: relative;
+      top: 0;
+      left: 0;
+   }
+   .team-desc-font{
+      font-size:0.9em;
+   }
+}
+@media(max-width:520px){
+   .portfolio-v2 .custom-container .sec-title span, .banner-sec-wrap .sec-title .banner-title,body .sec-title .about-cus-font{
+      font-size: 3rem;
+      word-wrap:break-word;
+   }
+   .banner-overlay .sec-title > .banner-title{
+      line-height: 1.25;
+   }
+   // banner title responsive class
+}

@@ -1,0 +1,46 @@
+<div class="contact-form-wrap">
+   <form class="" action="/.xyz" method="post" [formGroup]="form">
+      <div class="form-group mrgn-b-2">
+         <input name="name-input" class="form-control" type="text" value="" placeholder="Full Name" formControlName ='name'>
+         <small class="text-danger" *ngIf="form.controls['name'].hasError('required') && form.controls['name'].touched">
+            You must include a name.
+         </small>
+      </div>
+      <!-- form-group wrap close -->
+      <div class="form-group mrgn-b-2">
+         <input name="name-input" class="form-control" type="email" value="" placeholder="Email*" formControlName ='email'>
+         <small class="text-danger" *ngIf="form.controls['email'].hasError('required') && form.controls['email'].touched">
+            You must include an email address.
+         </small>
+         <small class="text-danger" *ngIf="form.controls['email'].errors && !(form.controls['email'].hasError('required')) && form.controls['email'].touched">
+            You must include a valid email address.
+         </small>
+      </div>
+      <!-- form-group wrap close -->
+      <div class="form-group mrgn-b-2">
+         <input name="name-input" class="form-control" type="text" value="" placeholder="Contact No" formControlName ='contactNumber'>
+         <small class="text-danger" *ngIf="form.controls['contactNumber'].hasError('required') && form.controls['contactNumber'].touched">
+            You must include a Contact Number.
+         </small>
+      </div>
+      <!-- form-group wrap close -->
+      <div class="form-group select-group mrgn-b-2">
+         <select class="form-control" formControlName ='selectGroup'>
+            <option value="" disabled selected>Select your option</option>
+            <option value="volvo" selected="selected">How can we help?</option>
+            <option value="saab">Insights & Discovery</option>
+            <option value="mercedes">Digital Product Development</option>
+            <option value="audi">eCommerce</option>
+         </select>
+         <small class="text-danger" *ngIf="form.controls['selectGroup'].hasError('required') && form.controls['selectGroup'].touched">
+            You must include a option.
+         </small>
+      </div>
+      <!-- form-group wrap close -->
+      <div class="form-group mb-0">
+         <input class="btn btn-secondary-grad btn-click-effect d-inline-block" type="submit" value="Request Callback">
+      </div>
+      <!-- form-group wrap close -->
+   </form>
+</div>
+<!-- contact-form-wrap close -->

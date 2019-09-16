@@ -1,0 +1,95 @@
+[
+	{
+		"tag" : "",
+		"ribbon_name" : "popular",
+		"title" : "Starter",
+		"sub_title" : "Basic Level Plan",
+		"price" : 300,
+		"price_type" : "yearly",
+		"button_name" : "Buy Now",
+		"pricing_list" : [
+			{
+				"icon" : "text-success fa-check",
+				"value" : "100+ Graph & Charts"
+			},
+			{
+				"icon" : "text-success fa-check",
+				"value" : "100+ Components"
+			},
+			{
+				"icon" : "text-danger fa-times",
+				"value" : " 10+ Themes color"
+			},
+			{
+				"icon" : "text-danger fa-times",
+				"value" : "100+ Features"
+			},
+			{
+				"icon" : "text-success fa-check",
+				"value" : "100+ Icons"
+			}
+		]
+	},
+	{
+		"tag" : "popular",
+		"ribbon_name" : "popular",
+		"title" : "Gold",
+		"sub_title" : "Advance Level Plan",
+		"price" : 500,
+		"price_type" : "yearly",
+		"button_name" : "Buy Now",
+		"pricing_list" : [
+			{
+				"icon" : "text-success fa-check",
+				"value" : "100+ Graph & Charts"
+			},
+			{
+				"icon" : "text-success fa-check",
+				"value" : "100+ Components"
+			},
+			{
+				"icon" : "text-danger fa-times",
+				"value" : " 10+ Themes color"
+			},
+			{
+				"icon" : "text-danger fa-times",
+				"value" : "100+ Features"
+			},
+			{
+				"icon" : "text-success fa-check",
+				"value" : "100+ Icons"
+			}
+		]
+	},
+	{
+		"tag" : "",
+		"ribbon_name" : "popular",
+		"title" : "Business",
+		"sub_title" : "Expert Level Plan",
+		"price" : 700,
+		"price_type" : "yearly",
+		"button_name" : "Buy Now",
+		"pricing_list" : [
+			{
+				"icon" : "text-success fa-check",
+				"value" : "100+ Graph & Charts"
+			},
+			{
+				"icon" : "text-success fa-check",
+				"value" : "100+ Components"
+			},
+			{
+				"icon" : "text-danger fa-times",
+				"value" : " 10+ Themes color"
+			},
+			{
+				"icon" : "text-danger fa-times",
+				"value" : "100+ Features"
+			},
+			{
+				"icon" : "text-success fa-check",
+				"value" : "100+ Icons"
+			}
+		]
+	}
+]

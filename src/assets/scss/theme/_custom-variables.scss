@@ -1,0 +1,61 @@
+/*--------------
+2.0 Custom Variables
+----------------*/
+/*=============|Custom Colors|===============*/
+$purple-400: $orange;
+$primary-gradient: linear-gradient($black 0%, $black 100%);
+$secondary-gradient: linear-gradient(0deg, $orange 0%, $yellow 100%);
+$success-gradient: linear-gradient($green 0%, $teal 100%);
+$error-gradient: linear-gradient($pink 0%, $red 100%);
+
+/*=======|SVG Colors|==========*/
+$border-svg-1:#badaff ;
+$border-svg-2:#FFF3E6 ;
+$border-svg-3:#F4F4F4 ;
+$border-svg-white:#FFFFFF ;
+$svg-gray:#FBFBFB ;
+$svg-service-grid: #f0e9fa;
+$svg-service-grid2: rgba(theme-color(dark),0.18);
+
+/*=========Slick  Color========*/
+$slick-arrow-color:#D7D9DD;
+$slick-dots-def: #DDDDDD;
+
+/*==========Conatct Sec Font=========*/
+$contact-font-color:#4C4F55;
+
+/*===========Footer Section===========*/
+$bg-primary-after-color:rgba(theme-color("primary"), .7);
+$footer-social-icon: $dark ;
+$footer-menu-list:#787D8A;
+
+/*Secondary Font family*/
+$sec-font-family:Muli;
+$font-montserrat:Montserrat;
+
+/*=============|Theme variables|============*/
+$theme-box-shadow: 0 20px 50px 0 rgba($dark,0.07);
+$theme-transition: all 0.3s ease;
+$grid-item-space: 1.880rem;
+
+/*==============|Margin and Padding Custom variables|==============*/
+$mp-value-1:0.75rem !important;
+$mp-value-2:2rem !important;
+
+/*===============|Pages Banners Common Properties|===============*/
+$banner-height: 400px;
+
+/*===============|About Page Varibale|===============*/
+$brands-image-height:700px;
+
+/**===============|Service Items |====================*/
+$service-item-text:#EFEFEF;
+
+/**===============|Header Menu |====================*/
+$submenu-bg:$white;
+$submenu-color:$body-color;
+$submenu-box-shadow:0 20px 50px 0 rgba($primary,0.076);
+
+/**===============|Banner Overlay Color|====================*/
+// $banner-overlay-color:linear-gradient(180deg, rgba($purple, 0.555) 0%, rgba(#7212f4, 0.733) 100%);
+$banner-overlay-color:linear-gradient(180deg, rgba(black, 0.755) 0%, rgba(black, 0.33) 100%);

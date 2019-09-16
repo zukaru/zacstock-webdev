@@ -1,0 +1,39 @@
+/*--------------
+3.3.6 Testimonials Section
+----------------*/
+/*==============|Testimonial slider|===============*/ 
+.testimonial-v1 .testimonial-slider{
+   .sec-title-wrap .sec-title{
+      width: calc(100% - 105px);
+   }
+   .testimonial-item{
+      box-shadow: 0 8px 25px 0 rgba($dark, 0.17);
+      padding:3.125rem;
+      margin:0.5rem 3.875rem 3rem;
+      border-radius: 10px;
+      background-color: $white;
+   }
+   .testimonial-content{
+      p{
+         font-family: $sec-font-family;
+         font-style: italic;
+         line-height: 1.55;
+         font-weight: 600;
+      }
+   }
+}
+.testimonial-v1{
+   background-color: #F5F5F7;
+}
+@media(max-width:767px){
+   .testimonial-v1 .testimonial-slider .testimonial-item {
+      box-shadow: 0 0px 12px 0 rgba(0, 0, 0, 0.07);
+      padding: 3rem;
+      margin:  0.5rem 0.5rem 1.875rem;
+   }
+}
+@media(max-width:570px){
+   .testimonial-v1 .testimonial-slider .testimonial-item {
+      padding: 1.125rem;      
+   }
+}

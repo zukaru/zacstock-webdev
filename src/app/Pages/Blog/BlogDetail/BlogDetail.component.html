@@ -1,0 +1,188 @@
+<ng-container *ngIf="gridItemDetails">
+   <app-banner-v2 pageTitle="Blog Detail"></app-banner-v2>
+   <div class="content sec-pad">
+   	<div class="blog-wrap">
+   		<div class="container">
+   			<div class="blog-list">
+   				<div class="row">
+   					<div class="col-12 col-sm-12 col-md-12 col-lg-8 mb-5 mb-lg-0">
+   						<div class="blog-detail-single mrgn-b-2">
+                        <article class="">
+                           <div class="blog-top-info">
+                              <div class="blog-detail-title mrgn-b-2">
+                                 <div class="sec-title">
+                                    <h3>{{gridItemDetails.title}}</h3>
+                                 </div>
+                                 <div class="meta-info">
+                                    <span class="category-wrap d-inline-block mb-2">
+                                       <a href="javascript:void(0);">Business</a>
+                                       <span class="d-inline-block mx-1">/</span>
+                                       <a href="javascript:void(0);">Journal</a>
+                                    </span>
+                                 </div>
+                                 <div class="meta-info">
+                                    <p class="mb-0">
+                                    <span class="author">
+                                       by <a class="font-smx" href="javascript:void(0);" tabindex="0">{{gridItemDetails.name}}</a>
+                                    </span>
+                                    <span class="date">
+                                       Posted On <a class="font-smx" href="javascript:void(0);" tabindex="0">{{gridItemDetails.date}}</a>
+                                    </span>
+                                    </p>
+                                 </div>
+                              </div>
+                              <div class="image-wrap mrgn-b-2">
+                                 <img src="{{gridItemDetails.image}}" class="" alt="" width="790" height="510">
+                              </div>
+                              <div class="blog-detail-content">
+                                 <div class="sec-content">
+                                    <p>{{gridItemDetails.content1}}
+                                    </p>
+                                    <p>
+                                       {{gridItemDetails.content2}}
+                                    </p>
+                                    <blockquote>
+                                       <p class="font-weight-bold font-mdx">{{gridItemDetails.blockquote}}
+                                       </p>
+                                    </blockquote>
+                                    <p>{{gridItemDetails.content3}}
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- blog top info -->
+                           <div class="blog-social-wrap d-md-flex py-4 justify-content-between align-items-center">
+                              <div class="tag-cloud-wrap">
+                                 <div class="tagcloud mb-4 mr-2 d-inline-block" *ngFor="let tag of gridItemDetails.tags"><a href="javascript:void(0);" class="tag-cloud-link px-3 py-2 bg-light rounded d-inline-block border">{{tag}}</a></div>
+                              </div>
+                              <div class="social-share mb-4 ml-0">
+                                 <app-social-icons [socialIcons]="socialIcons"></app-social-icons> 
+                              </div>
+                           </div>
+                           <!-- blog social wrap close -->
+                           <div class="post-navs d-flex py-7 border-top border-bottom mb-5 justify-content-between">
+                              <div class="previous-blog mr-auto">
+                                 <div class="prev-blog-link">
+                                    <a class="prev-post font-weight-normal" href="javascript:void(0);">PREV</a>
+                                 </div>
+                              </div>
+                              <div class="next-blog ml-auto">
+                                 <div class="next-blog-link"> 
+                                    <a class="next-post font-weight-normal" href="javascript:void(0);">NEXT</a> 
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- post navs wrap -->
+                           <div class="autor-sec-wrap mb-5 border-bottom pb-7">
+                              <app-about-author [aboutAuthor]="aboutAuthorContent"></app-about-author>
+                           </div>
+                        </article>
+                     </div>
+                     <div class="user-comment-wrap">
+                        <div class="user-comment">
+                           <div class="sec-title">
+                              <h4 class="mrgn-b-2">Comments</h4>
+                           </div>
+                           <div class="comment-item">
+                              <div class="media d-block d-sm-flex mb-5">
+                                 <div class="image-wrap mb-sm-0 mb-2 mr-0 mr-sm-4 ">
+                                    <span class="d-inline-block">
+                                       <img alt="blog thumb" class="img-fluid rounded-circle" src="https://via.placeholder.com/100x100" width="100" height="100">
+                                    </span>
+                                 </div>
+                                 <div class="media-body">
+                                    <div class="sec-title mb-2 d-sm-flex align-items-center justify-content-between">
+                                       <h6 class="media-heading d-inline-block mb-2">Bruce Richardson</h6>
+                                       <span class="text-muted d-block d-sm-inline-block mb-2"><i class="fa fa-clock-o"></i> Just now</span>
+                                    </div>
+                                    <div class="sec-content mb-3">
+                                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+                                    </div>
+                                    <div class="media-links">
+                                       <a class="mr-2 btn btn-sm px-3 btn-outline-comment" href="javascript:void(0)"><i class="fas fa-reply mr-2"></i>Reply</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="comment-item">
+                                 <div class="media d-block d-sm-flex mb-5">
+                                    <div class="image-wrap mb-sm-0 mb-2 mr-0 mr-sm-4 ">
+                                       <span class="d-inline-block">
+                                          <img alt="blog thumb" class="img-fluid rounded-circle" src="https://via.placeholder.com/100x100" width="100" height="100">
+                                       </span>
+                                    </div>
+                                    <div class="media-body">
+                                       <div class="sec-title mb-2 d-sm-flex align-items-center justify-content-between">
+                                          <h6 class="media-heading d-inline-block mb-2">John Doe</h6>
+                                          <span class="text-muted d-block d-sm-inline-block mb-2"><i class="fa fa-clock-o"></i> Just now</span>
+                                       </div>
+                                       <div class="sec-content mb-3">
+                                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+                                       </div>
+                                       <div class="media-links">
+                                          <a class="mr-2 btn btn-sm px-3 btn-outline-comment" href="javascript:void(0)"><i class="fas fa-reply mr-2"></i>Reply</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="comment-item">
+                              <div class="media d-block d-sm-flex mb-5">
+                                 <div class="image-wrap mb-sm-0 mb-2 mr-0 mr-sm-4 ">
+                                    <span class="d-inline-block">
+                                       <img alt="blog thumb" class="img-fluid rounded-circle" src="https://via.placeholder.com/100x100" width="100" height="100">
+                                    </span>
+                                 </div>
+                                 <div class="media-body">
+                                    <div class="sec-title mb-2 d-sm-flex align-items-center justify-content-between">
+                                       <h6 class="media-heading d-inline-block mb-2">Leena Winart</h6>
+                                       <span class="text-muted d-block d-sm-inline-block mb-2"><i class="fa fa-clock-o"></i> Just now</span>
+                                    </div>
+                                    <div class="sec-content mb-3">
+                                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+                                    </div>
+                                    <div class="media-links">
+                                       <a class="mr-2 btn btn-sm px-3 btn-outline-comment" href="javascript:void(0)"><i class="fas fa-reply mr-2"></i>Reply</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>   
+                        </div>
+                     </div>
+                     <!-- user comment wrap -->
+                     <div class="comment-section pt-2">
+                        <app-leavecomment></app-leavecomment>
+                     </div>
+   					</div>
+   					<div class="col-12 col-sm-12 col-md-12 col-lg-4">
+   						<div class="sidebar-wrap">
+   							<div class="widget widget_search">
+                           <app-search-v1></app-search-v1>
+   							</div>
+   							<div class="widget widget_postlist">
+   								<div class="popular-post-listing">
+   									<div class="post-list-item mrgn-b-2" *ngFor="let list of postList;let i = index">
+                                 <ng-container *ngIf="i<3">
+                                    <app-post-list [postList]="list" (blogDetail)="postDetailContent($event)"></app-post-list>
+                                 </ng-container>
+                              </div>   								
+   								</div>
+   							</div>
+   							<div class="widget widget_categories">
+                           <app-categories [categories]="categories"></app-categories>
+                        </div>
+   							<div class="widget widget_tag_cloud">
+                           <app-tag [tags]="tags"></app-tag>
+                        </div>
+                        <div class="widget widget_recent_comments">
+                           <app-recent-comments [recentComments]="recentComments"></app-recent-comments>
+                        </div>
+   						</div>
+   					</div>
+   				</div>
+   				<!-- row -->
+   			</div>
+   		</div>
+   	</div>
+      <!-- blog-wrap close -->
+   </div>
+</ng-container>

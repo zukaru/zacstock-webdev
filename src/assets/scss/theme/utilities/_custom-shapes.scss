@@ -1,0 +1,220 @@
+/*--------------
+3.1.2 Custom Shapes
+----------------*/
+/*=========|Custom svg shapes styling|=========*/
+.shape-wrap{
+   position:relative;
+   z-index: 2;
+   .custom-shape{
+      position:absolute;
+      z-index: -1;
+   }
+   &.services-wrap-v1,&.services-page-content,&.site-404-wrap,&.session-wrap{
+      .custom-shape{
+         &.pos-size-1{
+            width: 470px;
+            height: 470px;
+            left: -166px;
+            top: 218px;
+         }
+         &.pos-size-2{
+            width: 48px;
+            height: 48px;
+            left: -300px;
+            right: 0;
+            margin: 0 auto;
+            bottom: 290px;
+         }
+         &.pos-size-3{
+            width: 98px;
+            height: 105px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            top: 100px;
+         }
+         &.pos-size-4{
+            height: 388px;
+            width: 385px;
+            right:-166px;
+            top: 140px;
+         }
+      }
+   }
+   &.portfolio-v1{
+      .custom-shape{
+         &.pos-size-1{
+            width: 98px;
+            height: 105px;
+            left: 100px;
+            top: 90px;
+         }
+         &.pos-size-2{
+            width: 85px;
+            height: 105px;
+            right: 175px;
+            transform: rotate(40deg);
+         }
+      }
+   }
+   &.explore-studio-wrap,&.pricing-content-wrap,&.services-static-sec,&.maintenance-wrap,&.faq-wrap,&.blog-wrap,&.portfolio-detail-wrap,&.process-page-wrap,&.team-detail-wrap{
+      .custom-shape{
+         &.pos-size-1{
+            height: 388.76px;
+            width: 442.71px;
+            left: -225px;
+         }
+         &.pos-size-2{
+            left: 30px;
+            height: 106.7px;
+            width: 118.88px;
+         }
+         &.pos-size-3{
+            height: 97.71px;
+            width: 105.7px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            bottom: 30%;
+         }
+         &.pos-size-4{
+            height: 54.17px;
+            width: 55.43px;
+            right: 166px;
+         }
+      }
+   }
+   &.blog-grid-wrap,&.contact-us-sec {
+      .custom-shape{
+         &.pos-size-1{
+            height: 97.71px;
+            width: 105.7px;
+            left: 108px;
+            top:50%;
+         }
+         &.pos-size-2{
+            right: 101px;
+            height: 54.17px;
+            width: 55.43px;
+            top:-30px;
+         }
+      }
+   }
+   &.blog-grid-wrap {
+      .custom-shape{
+         &.pos-size-1{
+            height: 97.71px;
+            width: 105.7px;
+            left: 108px;
+            top:50%;
+         }
+         &.pos-size-2{
+            right: 101px;
+            height: 54.17px;
+            width: 55.43px;
+            top:-30px;
+         }
+      }
+   }
+   &.testimonial-v1{
+      .custom-shape{
+         &.pos-size-1{
+            height: 681.34px;
+            width: 765.08px;
+            left: -363px;
+            top: 61px;
+         }
+         &.pos-size-2{
+            height: 400px;
+            width: 400px;
+            top: 370px;
+            left: -44px;
+            filter: drop-shadow(0 12px 24px rgba(0,0,0,0.21));
+         }
+         &.pos-size-3{
+            height: 97.71px;
+            width: 105.7px;
+            left: 360px;
+            top: 400px;
+         }
+         &.pos-size-4{
+            height: 97.71px;
+            width: 105.7px;
+            right: 480px;
+            top: 222px;
+         }
+         &.pos-size-5{
+            height: 94.42px;
+            width: 105.01px;
+            right: -42px;
+            top: 100px;
+         }
+      }
+   }
+   &.testimonial-v2{
+      .custom-shape{
+         &.pos-size-1{
+            width: 270px;
+            height: 214px;
+            left: -100px;
+         }
+         &.pos-size-2{
+            height: 424px;
+            width: 535px;
+            right: -250px;
+            top: -200px;
+         }
+      }
+   }
+}
+.svg-primary{
+   fill: url(#primary-grad);
+}
+.svg-secondary{
+   fill: url(#secondary-grad);
+}
+.svg-success{
+   fill: $purple;
+}
+.svg-error{
+   fill: $blue;
+}
+
+// safari hacks for gradient color
+_::-webkit-full-page-media, _:future, :root .svg-primary{
+   fill: $black;
+}
+
+_::-webkit-full-page-media, _:future, :root  .svg-secondary{
+   fill: $orange;
+}
+_::-webkit-full-page-media, _:future, :root  .svg-success{
+   fill: $green;
+}
+_::-webkit-full-page-media, _:future, :root  .svg-error{
+   fill: $blue;
+}
+.svg-border{
+   stroke-miterlimit: 10;
+   stroke-width: 3px;
+   fill: none;
+}
+.svg-border-1{
+   stroke:$border-svg-1;
+}
+.svg-border-2{
+   stroke:$border-svg-2;
+}
+.svg-border-3{
+   stroke:$border-svg-3;
+}
+.svg-border-white{
+   stroke:$border-svg-white;
+}
+.svg-gray{
+   fill:$svg-gray;
+}
+
+.creative-grad-1{
+   fill:url(#creative-grad-1);
+}

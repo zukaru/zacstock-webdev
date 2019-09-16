@@ -1,0 +1,8 @@
+<div class="widget-panel-info">
+	<h5 class="widget-title">Recent Comments</h5>
+</div>
+<!-- widget-panel-info wrap close -->
+<ul class="recentcomments list-unstyled px-0">
+	<li class="border-bottom" *ngFor="let comments of recentComments"><span class="comment-author-link text-muted">{{comments.adminName}}</span> on <a href="javascript:void(0)" class="d-block">{{comments.blogName}}</a></li>
+</ul>
+<!-- recentcomments -->

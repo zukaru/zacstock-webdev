@@ -1,0 +1,31 @@
+<div class="image-item overlay-wrap">
+   <div class="image-mason-item" [ngStyle]="{'background-image': 'url(' + portfolioContent.image1 + ')'}"></div>
+   <ng-container *ngIf="currentUrl == '/'; else elseBlock">
+      <div class="overlay-content d-flex align-items-end p-7 primary-overlay">
+         <a class="image-link" href="{{portfolioContent.image1}}">
+            <div class="sec-content-wrap">
+               <div class="sec-title" (click)="portfolioGridContent(portfolioContent)">
+                  <h5 class="mb-1 p-cursor">{{portfolioContent.title}}</h5>
+               </div>
+               <div class="desig">
+                  <p class="mb-0 p-cursor">{{portfolioContent.category}}</p>
+               </div>
+            </div>
+         </a>
+      </div>
+   </ng-container>
+   <ng-template #elseBlock>
+      <div class="overlay-content d-flex align-items-end p-7 primary-overlay">
+         <div class="sec-content-wrap">
+            <div class="sec-title" (click)="portfolioGridContent(portfolioContent)">
+               <h5 class="mb-1 p-cursor">{{portfolioContent.title}}</h5>
+            </div>
+            <div class="desig">
+               <p class="mb-0 p-cursor">{{portfolioContent.category}}</p>
+            </div>
+         </div>
+      </div>
+      <!-- overlay-content wrap close -->
+   </ng-template>
+</div>
+<!-- overlay-wrap close -->

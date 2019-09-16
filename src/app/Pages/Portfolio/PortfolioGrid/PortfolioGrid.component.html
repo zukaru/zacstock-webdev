@@ -1,0 +1,163 @@
+<div class="banner-sec-wrap">
+   <div class="custom-container bg-light">
+      <div class="pages-common-banner portfolio-banner text-left py-lg-0">
+         <div class="row no-gutters w-100">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+               <div class="sec-title mb-5 mb-lg-0 portfolio-title">
+                  <h2 class="mb-0 font-weight-normal banner-title">Making Thing <span class="text-primary font-weight-bold">Simply Beautiful</span></h2>                        
+               </div>  
+            </div> 
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 text-center">
+               <a class="play-icon font-xlx text-center rounded-circle bg-primary text-white video-popup" href="https://www.youtube.com/watch?v=rbTVvpHF4cU"><i class="fas fa-play"></i></a>
+            </div> 
+         </div>  
+      </div> 
+   </div>   
+</div>
+<!-- Banner Sec Close --> 
+<div class="content sec-pad pb-0">
+   <div class="portfolio-page-wrap">
+      <div class="portfolio-tabs-section portfolio-load-more sec-pad pt-0">
+         <div class="portfolio-tab">
+            <div class="container-fluid">
+               <div class="custom-container">
+                     <div class="sec-title">
+                        <h2 class="title mrgn-b-2 text-center">Handicraft Projects</h2>
+                     </div>
+                  <div class="col-12 col-lg-6 mx-auto text-center">
+                        <div class="sec-content mb-5">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                       </div>
+                  <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+                     <li class="nav-item">
+                        <a class="nav-link active" id="pills-business-tab" data-toggle="pill" href="#pills-business" role="tab" aria-controls="pills-business" aria-selected="true">Business</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" id="pills-consulting-tab" data-toggle="pill" href="#pills-consulting" role="tab" aria-controls="pills-consulting" aria-selected="false">Consulting</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" id="pills-journal-tab" data-toggle="pill" href="#pills-journal" role="tab" aria-controls="pills-journal" aria-selected="false">Journal</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" id="pills-research-tab" data-toggle="pill" href="#pills-research" role="tab" aria-controls="pills-research" aria-selected="false">Research</a>
+                     </li>
+                  </ul>
+                 
+               </div> 
+            </div>     
+         </div>
+         <!-- portfolio-wrap close -->
+         <div class="tab-content shape-wrap portfolio-wrap portfolio-v1" id="pills-tabContent">
+            <div class="shape-group">
+               <span class="custom-shape pos-size-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118.742 111.528">
+                     <path data-name="Custom Polygon 3" class="svg-border svg-border-2" d="M57.148,30a20,20,0,0,1,34.641,0l29.85,51.7a20,20,0,0,1-17.321,30h-59.7A20,20,0,0,1,27.3,81.7Z" transform="translate(123.95 131.338) rotate(-172)"/>
+                     </svg>
+               </span>
+               <span class="custom-shape pos-size-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.413 60.176">
+                     <path data-name="Custom Polygon 2" class="svg-border svg-border-1" d="M25.109,16.5a11,11,0,0,1,19.053,0L55.1,35.452a11,11,0,0,1-9.526,16.5H23.693a11,11,0,0,1-9.526-16.5Z" transform="translate(45.416 -13.816) rotate(68)"/>
+                  </svg>
+               </span>
+            </div>
+            <!-- shape-group wrap close -->
+            <div class="tab-pane fade show active" id="pills-business" role="tabpanel" aria-labelledby="pills-business-tab">
+               <div class="portfolio-grid mb-5">
+                  <div class="row no-gutters">
+                     <div class="col-12 col-md-6 col-xl-4" *ngFor="let content of getPortfolioByCategory('Business'); let i = index">
+                        <ng-container *ngIf="showWebsiteData > i">
+                           <app-portfolio-grid-content [portfolioContent] = "content"></app-portfolio-grid-content>
+                        </ng-container>
+                     </div>
+                  </div>
+               </div>
+               <div class="container text-center">
+                  <div class="recent-work-btn d-inline-block load-more-btn">
+                     <a href="javascript:void(0)" class="btn btn-lg btn-secondary-grad btn-click-effect" (click)="loadMore('Business')"  id="show-more-Business">LOAD MORE</a>
+                  </div>
+               </div>
+            </div>
+            <div class="tab-pane fade" id="pills-consulting" role="tabpanel" aria-labelledby="pills-consulting-tab">
+               <div class="portfolio-grid mb-5">
+                  <div class="row no-gutters">
+                     <div class="col-12 col-md-6 col-xl-4" *ngFor="let content of getPortfolioByCategory('Consulting'); let i = index">
+                        <ng-container *ngIf="showAdsData > i">
+                          <app-portfolio-grid-content [portfolioContent] = "content"></app-portfolio-grid-content>
+                        </ng-container>
+                     </div>
+                  </div>
+               </div>
+               <div class="container text-center">
+                  <div class="recent-work-btn d-inline-block load-more-btn">
+                     <a href="javascript:void(0)" class="btn btn-lg btn-secondary-grad btn-click-effect" (click)="loadMore('Consulting')"  id="show-more-Consulting">LOAD MORE</a>
+                  </div>
+               </div>
+            </div>
+            <div class="tab-pane fade" id="pills-journal" role="tabpanel" aria-labelledby="pills-journal-tab">
+               <div class="portfolio-grid mb-5">
+                  <div class="row no-gutters">
+                     <div class="col-12 col-md-6 col-xl-4" *ngFor="let content of getPortfolioByCategory('Journal'); let i = index">
+                        <ng-container *ngIf="showMobileData > i">
+                           <app-portfolio-grid-content [portfolioContent] = "content"></app-portfolio-grid-content>
+                        </ng-container>
+                     </div>
+                  </div>
+               </div>
+               <div class="container text-center">
+                  <div class="recent-work-btn d-inline-block load-more-btn">
+                     <a href="javascript:void(0)" class="btn btn-lg btn-secondary-grad btn-click-effect" (click)="loadMore('Journal')"  id="show-more-Journal">LOAD MORE</a>
+                  </div>
+               </div>
+            </div>
+            <div class="tab-pane fade" id="pills-research" role="tabpanel" aria-labelledby="pills-research-tab">
+               <div class="portfolio-grid mb-5">
+                  <div class="row no-gutters">
+                     <div class="col-12 col-md-6 col-xl-4" *ngFor="let content of getPortfolioByCategory('Research'); let i = index">
+                        <ng-container  *ngIf="showbrandingData > i">
+                           <app-portfolio-grid-content [portfolioContent] = "content"></app-portfolio-grid-content>
+                        </ng-container>
+                     </div>
+                  </div>
+               </div>
+               <div class="container text-center">
+                  <div class="recent-work-btn d-inline-block load-more-btn">
+                     <a href="javascript:void(0)" class="btn btn-lg btn-secondary-grad btn-click-effect" (click)="loadMore('Research')" id="show-more-Research">LOAD MORE</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- tab-content-wrap close -->
+      </div>
+      <!-- Portfolio Tab Close -->            
+      <div class="portfolio-client-wrapper sec-pad bg-light" dir="ltr">
+         <div class="container">
+            <div class="col-12 col-lg-9 mx-auto text-center">
+               <div class="sec-title">
+                  <h2 class="title mrgn-b-2">Trusted Partners</h2>
+               </div>
+               <div class="sec-content mb-5">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+               </div>
+           </div>
+            <div class="portfolio-client-slider">
+               <app-client-slider [sliderContent] = "clientSlider" [clientSlideConfig] = "clientSlideConfig"></app-client-slider>
+            </div>    
+         </div>
+      </div>
+      <!-- Portfolio Client Close -->            
+      <div class="team-wrap team-v2 sec-pad">
+         <div class="container">
+               <div class="col-12 col-lg-9 mx-auto text-center">
+                     <div class="sec-title">
+                        <h2 class="title mrgn-b-2">Meet With Team</h2>
+                     </div>
+                     
+                 </div>
+            <app-grid-team-member [teamContent]="teamContent"></app-grid-team-member>
+         </div>         
+      </div>
+      <!-- Team Wrap Close -->
+   </div>
+   <!-- portfolio-page-wrap close -->
+</div>

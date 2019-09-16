@@ -1,0 +1,89 @@
+<div class="content">
+   <div class="session-wrap signup-wrap shape-wrap d-flex align-items-center justify-content-center">
+      <div class="shape-group shape-group-hide">
+         <span class="custom-shape pos-size-1">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 597.014 600.045">
+               <path data-name="Custom Polygon 1" class="svg-primary" d="M254.933,105c26.943-46.667,94.3-46.667,121.244,0L528.211,368.332c26.943,46.667-6.736,105-60.622,105H163.52c-53.886,0-87.565-58.333-60.622-105Z" transform="translate(289.247 -116.26) rotate(48)"></path>
+            </svg>
+         </span>
+         <span class="custom-shape pos-size-2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.413 60.176">
+               <path data-name="Custom Polygon 2" class="svg-border svg-border-1" d="M25.109,16.5a11,11,0,0,1,19.053,0L55.1,35.452a11,11,0,0,1-9.526,16.5H23.693a11,11,0,0,1-9.526-16.5Z" transform="translate(45.416 -13.816) rotate(68)"></path>
+            </svg>
+         </span>
+         <span class="custom-shape pos-size-3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118.742 111.528">
+               <path data-name="Custom Polygon 3" class="svg-border svg-border-2" d="M57.148,30a20,20,0,0,1,34.641,0l29.85,51.7a20,20,0,0,1-17.321,30h-59.7A20,20,0,0,1,27.3,81.7Z" transform="translate(123.95 131.338) rotate(-172)"></path>
+             </svg>
+         </span>
+         <span class="custom-shape pos-size-4">                     
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 482.073 504.275">
+               <path xmlns="http://www.w3.org/2000/svg" data-name="Custom Polygon 4" class="svg-gray" d="M229.2,75c19.245-33.333,67.358-33.333,86.6,0L465.195,333.753c19.245,33.333-4.811,75-43.3,75H123.111c-38.49,0-62.546-41.667-43.3-75Z" transform="translate(351.63 -86.448) rotate(68)"></path>
+            </svg>
+         </span>
+      </div>
+      <!-- shape group close -->
+      <div class="session-content contact-form-wrap text-center card shadow-box section-spacer">
+         <div class="social-widget mb-5">
+            <h2 class="text-capitalize font-2x mb-4">Sign Up</h2>
+            <ul class="list-inline mb-0">
+               <li class="d-inline-block list-inline-item"><a class="text-white rounded square-50 bg-facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+               <li class="d-inline-block list-inline-item"><a class="text-white rounded square-50 bg-twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+               <li class="d-inline-block list-inline-item"><a class="text-white rounded square-50 bg-linkedin" href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+         </div>
+         <!-- social widget -->
+         <div>
+            <form [formGroup]="form">
+               <div class="form-group text-left">
+                  <input name="name-input" class="form-control" type="text" value="" placeholder="Full Name" formControlName ='name'>
+						<small class="text-danger" *ngIf="form.controls['name'].hasError('required') && form.controls['name'].touched">
+							You must include a name.
+						</small>
+               </div>
+               <div class="form-group text-left">
+                  <input name="name-input" class="form-control" type="email" value="" placeholder="Email Address" formControlName ='email'>
+						<small class="text-danger text-left" *ngIf="form.controls['email'].hasError('required') && form.controls['email'].touched">
+							You must include an email address.
+						</small>
+						<small class="text-danger" *ngIf="form.controls['email'].errors && !(form.controls['email'].hasError('required')) && form.controls['email'].touched">
+							You must include a valid email address.
+						</small>
+               </div>
+               <div class="form-group text-left">
+                  <input name="name-input" class="form-control" type="password" value="" placeholder="password"  formControlName ='newPassword'>
+                  <small class="text-danger" *ngIf="form.controls['newPassword'].touched && !form.controls['newPassword'].valid">
+							<small *ngIf="form.controls['newPassword'].hasError('required')">
+								Password is required
+							</small>
+							<small *ngIf="form.controls['newPassword'].hasError('minlength')">
+								password must contain atleast 6 characters
+							</small>
+						</small>
+               </div>
+               <div class="form-group text-left mb-5">
+                  <input name="name-input" class="form-control" type="password" value="" placeholder="Confirm password" formControlName ='confirmPassword'>
+						<small class="text-danger" *ngIf="form.controls['confirmPassword'].touched && !form.controls['confirmPassword'].valid">
+							<small *ngIf="form.controls['confirmPassword'].hasError('required')">
+								Password is required
+							</small>
+							<small *ngIf="form.controls['confirmPassword'].hasError('MatchPassword')">
+								Password not match
+							</small>
+							<small *ngIf="form.controls['confirmPassword'].hasError('minlength')">
+								password must contain atleast 6 characters
+							</small>
+						</small>
+               </div>
+               <div class="form-group mb-2">
+                  <a class="btn btn-primary d-block" href="javascript:void(0)" (click)="signUp()">Sign Up</a>
+               </div>
+               <div class="form-group text-center mb-0">
+                  <p class="mb-0">Already Member ? <a class="text-primary ml-1" routerLink="/session/login">Login</a></p>
+               </div>
+            </form>
+         </div>   
+      </div>
+   </div> 
+   <!-- session-wrap close -->
+</div>

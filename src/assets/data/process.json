@@ -1,0 +1,71 @@
+{
+	"processList" : [
+		{
+			"image" : "https://via.placeholder.com/900x600",
+			"number" : "1.",
+			"title" : "Analysis",
+			"content" : "Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa."
+		},
+		{
+			"image" : "https://via.placeholder.com/900x600",
+			"number" : "2.",
+			"title": "Planning",
+			"content" : "Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa."
+		},
+		{
+			"image" : "https://via.placeholder.com/900x600",
+			"number" : "3.",
+			"title" : "Execution",
+			"content" : "Metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti himenaeos habitant quis in sit varius lorem quis."
+		}
+	],
+	"processApproach" : [
+		{
+			"number" : "1.",
+			"title" : "Brainstroming",
+			"content" : "Blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum tristique lobortis ests lorem proin."
+		},
+		{
+			"number" : "2.",
+			"title": "Creative Idea",
+			"content" : "Metus lobortis tortor tincidunt himenaeos habitant quis dictumst proin odio sagittis purus mi, nec taciti himenaeos habitant quis in sit varius lorem quis dictumst."
+		},
+		{
+			"number" : "3.",
+			"title" : "Publish Project",
+			"content" : "Dolor posuere proin blandit accumsan senectus netus nullam curae, ornare laoreet adipiscing luctus mauris adipiscing pretium eget fermentum, tristique lobortis."
+		}
+	],
+	"processSteps" : [
+		{
+			"number" : "01",
+			"title" : "Business",
+			"content" : "Potenti elit lectus augue eget iaculis vitae unknown printer etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa."
+		},
+		{
+			"number" : "02",
+			"title": "Branding",
+			"content" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of it to make a type specimen unknown printer book."
+		},
+		{
+			"number" : "03",
+			"title" : "Designing",
+			"content" : "Flexible fremework to provide you the full control over unknown printer designs quo and functionality. Component and modules easy to develope sections with ease."
+		},
+		{
+			"number" : "04",
+			"title" : "Marketing",
+			"content" : "Nam libero tempore nihil impedit quo, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.Lorem maxime pl."
+		},
+		{
+			"number" : "05",
+			"title": "Development",
+			"content" : "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quosnihil impedit lorem quo dolores et quas."
+		},
+		{
+			"number" : "06",
+			"title" : "Expansion",
+			"content" : "Potenti elit lectus augue eget iaculis vitae etiam, ullamcorper etiam bibendum ad feugiat magna accumsan dolor, nibh molestie cras hac ac ad massa nihil impedit quo."
+		}
+	]
+}

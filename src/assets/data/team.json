@@ -1,0 +1,356 @@
+{
+	"team" :
+		[
+			{
+				"id" : 1,
+				"image1" : "https://via.placeholder.com/570x826",
+				"image2" : "https://via.placeholder.com/570x826/000",
+				"thumbImage" :"https://via.placeholder.com/300x300",
+				"name" : "Pearl Horton",
+				"designation" : "Sales Executive",
+				"birthDate" : "05 Jan,1990",
+				"phone" : "012-345-6789",
+				"email" : "infon@example.com",
+				"location" : "2420 Henry Ford Avenue",
+				"about" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to usingeditors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sitesstill in their infancy.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+				"skills" : [
+					{
+						"title" : "Analysis",
+						"value" : 80
+					},
+					{
+						"title" : "Marketing",
+						"value" : 90
+					},
+					{
+						"title" : "Designing",
+						"value" : 70
+					},
+					{
+						"title" : "Team Work",
+						"value" : 85
+					},
+					{
+						"title" : "PhotoShop",
+						"value" : 75
+					}
+				],
+				"socialIcons" : [
+					{
+						"icons" : "fab fa-facebook-f",
+						"links" : "http://facebook.com"
+					},
+					{
+						"icons": "fab fa-twitter",
+						"links" : "http://twitter.com"
+					},
+					{
+						"icons" : "fab fa-linkedin-in",
+						"links" : "http://linkedin.com"
+					},
+					{
+						"icons" : "fab fa-instagram",
+						"links": "http://instagram.com"
+					},
+					{
+						"icons" : "fab fa-dribbble",
+						"links" : "https://dribbble.com/"
+					},
+					{
+						"icons" : "fab fa-behance",
+						"links" : "https://www.behance.net/"
+					}
+				],
+				"educationBackground" : [
+					{
+						"collapseId" : "collapseThree",
+						"headingId" : "headingThree",
+						"showClass" : "show",
+						"collapsedClass" : "",
+						"qualification" : "Master in Business Management",
+						"yearPassOut" : "May 2011",
+						"qualificationDescription" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod."
+					},
+					{
+						"collapseId" : "collapseFour",
+						"headingId" : "headingFour",
+						"collapsedClass" : "collapsed",
+						"qualification" : "Bachelor in Business Management",
+						"yearPassOut" : "May 2009",
+						"qualificationDescription" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod."
+					}
+				]
+			},
+			{
+				"id" : 2,
+				"image1" : "https://via.placeholder.com/570x826",
+				"image2" : "https://via.placeholder.com/570x826/000",
+				"thumbImage" :"https://via.placeholder.com/300x300",
+				"name" : "Carl Henry",
+				"designation" : "Developer",
+				"birthDate" : "11 Dec,1978",
+				"phone" : "012-345-6789",
+				"email" : "infon@example.com",
+				"location" : "2420 Henry Ford Avenue",
+				"about" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to usingeditors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sitesstill in their infancy.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+				"skills" : [
+					{
+						"title" : "Analysis",
+						"value" : 80
+					},
+					{
+						"title" : "Marketing",
+						"value" : 90
+					},
+					{
+						"title" : "Designing",
+						"value" : 70
+					},
+					{
+						"title" : "Team Work",
+						"value" : 85
+					},
+					{
+						"title" : "PhotoShop",
+						"value" : 75
+					}
+				],
+				"socialIcons" : [
+					{
+						"icons" : "fab fa-facebook-f",
+						"links" : "http://facebook.com"
+					},
+					{
+						"icons": "fab fa-twitter",
+						"links" : "http://twitter.com"
+					},
+					{
+						"icons" : "fab fa-linkedin-in",
+						"links" : "http://linkedin.com"
+					},
+					{
+						"icons" : "fab fa-instagram",
+						"links": "http://instagram.com"
+					},
+					{
+						"icons" : "fab fa-dribbble",
+						"links" : "https://dribbble.com/"
+					},
+					{
+						"icons" : "fab fa-behance",
+						"links" : "https://www.behance.net/"
+					}
+				],
+				"educationBackground" : [
+					{
+						"collapseId" : "collapseThree",
+						"headingId" : "headingThree",
+						"showClass" : "show",
+						"collapsedClass" : "",
+						"qualification" : "Master in Business Management",
+						"yearPassOut" : "May 2011",
+						"qualificationDescription" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod."
+					},
+					{
+						"collapseId" : "collapseFour",
+						"headingId" : "headingFour",
+						"collapsedClass" : "collapsed",
+						"qualification" : "Bachelor in Business Management",
+						"yearPassOut" : "May 2009",
+						"qualificationDescription" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod."
+					}
+				]
+			},
+			{
+				"id" : 3,
+				"image1" : "https://via.placeholder.com/570x826",
+				"image2" : "https://via.placeholder.com/570x826/000",
+				"thumbImage" :"https://via.placeholder.com/300x300",
+				"name" : "Martha Payne",
+				"designation" : "Supervisor",
+				"birthDate" : "20 June,1991",
+				"phone" : "012-345-6789",
+				"email" : "infon@example.com",
+				"location" : "2420 Henry Ford Avenue",
+				"about" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to usingeditors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sitesstill in their infancy.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+				"skills" : [
+					{
+						"title" : "Analysis",
+						"value" : 80
+					},
+					{
+						"title" : "Marketing",
+						"value" : 90
+					},
+					{
+						"title" : "Designing",
+						"value" : 70
+					},
+					{
+						"title" : "Team Work",
+						"value" : 85
+					},
+					{
+						"title" : "PhotoShop",
+						"value" : 75
+					}
+				],
+				"socialIcons" : [
+					{
+						"icons" : "fab fa-facebook-f",
+						"links" : "http://facebook.com"
+					},
+					{
+						"icons": "fab fa-twitter",
+						"links" : "http://twitter.com"
+					},
+					{
+						"icons" : "fab fa-linkedin-in",
+						"links" : "http://linkedin.com"
+					},
+					{
+						"icons" : "fab fa-instagram",
+						"links": "http://instagram.com"
+					},
+					{
+						"icons" : "fab fa-dribbble",
+						"links" : "https://dribbble.com/"
+					},
+					{
+						"icons" : "fab fa-behance",
+						"links" : "https://www.behance.net/"
+					}
+				],
+				"educationBackground" : [
+					{
+						"collapseId" : "collapseThree",
+						"headingId" : "headingThree",
+						"showClass" : "show",
+						"collapsedClass" : "",
+						"qualification" : "Master in Business Management",
+						"yearPassOut" : "May 2011",
+						"qualificationDescription" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod."
+					},
+					{
+						"collapseId" : "collapseFour",
+						"headingId" : "headingFour",
+						"collapsedClass" : "collapsed",
+						"qualification" : "Bachelor in Business Management",
+						"yearPassOut" : "May 2009",
+						"qualificationDescription" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod."
+					}
+				]
+			},
+			{
+				"id" : 4,
+				"image1" : "https://via.placeholder.com/570x826",
+				"image2" : "https://via.placeholder.com/570x826/000",
+				"thumbImage" :"https://via.placeholder.com/300x300",
+				"name" : "Tony Payne",
+				"designation" : "Designer",
+				"birthDate" : "17 Dec, 1992",
+				"phone" : "012-345-6789",
+				"email" : "infon@example.com",
+				"location" : "2420 Henry Ford Avenue",
+				"about" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to usingeditors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sitesstill in their infancy.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+				"skills" : [
+					{
+						"title" : "Analysis",
+						"value" : 80
+					},
+					{
+						"title" : "Marketing",
+						"value" : 90
+					},
+					{
+						"title" : "Designing",
+						"value" : 70
+					},
+					{
+						"title" : "Team Work",
+						"value" : 85
+					},
+					{
+						"title" : "PhotoShop",
+						"value" : 75
+					}
+				],
+				"socialIcons" : [
+					{
+						"icons" : "fab fa-facebook-f",
+						"links" : "http://facebook.com"
+					},
+					{
+						"icons": "fab fa-twitter",
+						"links" : "http://twitter.com"
+					},
+					{
+						"icons" : "fab fa-linkedin-in",
+						"links" : "http://linkedin.com"
+					},
+					{
+						"icons" : "fab fa-instagram",
+						"links": "http://instagram.com"
+					},
+					{
+						"icons" : "fab fa-dribbble",
+						"links" : "https://dribbble.com/"
+					},
+					{
+						"icons" : "fab fa-behance",
+						"links" : "https://www.behance.net/"
+					}
+				],
+				"educationBackground" : [
+					{
+						"collapseId" : "collapseThree",
+						"headingId" : "headingThree",
+						"showClass" : "show",
+						"collapsedClass" : "",
+						"qualification" : "Master in Business Management",
+						"yearPassOut" : "May 2011",
+						"qualificationDescription" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod."
+					},
+					{
+						"collapseId" : "collapseFour",
+						"headingId" : "headingFour",
+						"collapsedClass" : "collapsed",
+						"qualification" : "Bachelor in Business Management",
+						"yearPassOut" : "May 2009",
+						"qualificationDescription" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod."
+					}
+				]
+			}
+		],
+	"founder" : {
+		"name" : "Nina Jones",
+		"image" : "https://via.placeholder.com/450x550",
+		"about" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English..",
+		"socialIcons" : [
+			{
+				"icons" : "fab fa-facebook-f",
+				"links" : "http://facebook.com"
+			},
+			{
+				"icons": "fab fa-twitter",
+				"links" : "http://twitter.com"
+			},
+			{
+				"icons" : "fab fa-linkedin-in",
+				"links" : "http://linkedin.com"
+			},
+			{
+				"icons" : "fab fa-instagram",
+				"links": "http://instagram.com"
+			},
+			{
+				"icons" : "fab fa-dribbble",
+				"links" : "https://dribbble.com/"
+			},
+			{
+				"icons" : "fab fa-behance",
+				"links" : "https://www.behance.net/"
+			}
+		]
+	}	
+}

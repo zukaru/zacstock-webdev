@@ -1,0 +1,27 @@
+/*--------------
+3.3.8 Explore Studio Section
+----------------*/
+.explore-studio{
+   .grid-item{
+      .image-mason-item{
+         border-radius: 10px;
+      }
+      &:nth-child(1) .image-mason-item{
+        height: 262px;
+      }  
+      &:nth-child(2) .image-mason-item{
+         height: 325px;
+      }    
+      &:nth-child(3) .image-mason-item{
+         height: 617px;
+      }      
+   }
+}
+@media(max-width:1199){
+   .explore-studio .grid-item:nth-child(3) .image-mason-item {
+      height: 721px;  
+  }
+  .explore-studio .grid-item:nth-child(1) .image-mason-item {
+      height: 368px;
+   }
+}

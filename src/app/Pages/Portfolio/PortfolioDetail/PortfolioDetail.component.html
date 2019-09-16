@@ -1,0 +1,101 @@
+<ng-container *ngIf="portfolioContent">
+   <app-banner-v2 pageTitle="{{portfolioContent.title}}"></app-banner-v2>
+   <div class="content py-0">
+      <div class="portfolio-detail-wrap shape-wrap">
+         <div class="shape-group">
+            <span class="custom-shape pos-size-1">                     
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 482.073 504.275">
+                  <path xmlns="http://www.w3.org/2000/svg" data-name="Custom Polygon 4" class="svg-gray" d="M229.2,75c19.245-33.333,67.358-33.333,86.6,0L465.195,333.753c19.245,33.333-4.811,75-43.3,75H123.111c-38.49,0-62.546-41.667-43.3-75Z" transform="translate(351.63 -86.448) rotate(68)"/>
+               </svg>
+            </span>
+            <span class="custom-shape pos-size-2">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118.742 111.528">
+                  <path data-name="Custom Polygon 3" class="svg-border svg-border-3" d="M57.148,30a20,20,0,0,1,34.641,0l29.85,51.7a20,20,0,0,1-17.321,30h-59.7A20,20,0,0,1,27.3,81.7Z" transform="translate(123.95 131.338) rotate(-172)"/>
+               </svg>
+            </span>
+            <span class="custom-shape pos-size-3">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.413 60.176">
+                  <path data-name="Custom Polygon 2" class="svg-border svg-border-2" d="M25.109,16.5a11,11,0,0,1,19.053,0L55.1,35.452a11,11,0,0,1-9.526,16.5H23.693a11,11,0,0,1-9.526-16.5Z" transform="translate(45.416 -13.816) rotate(68)"/>
+               </svg>
+            </span>
+            <span class="custom-shape pos-size-4">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.413 60.176">
+                  <path data-name="Custom Polygon 2" class="svg-border svg-border-1" d="M25.109,16.5a11,11,0,0,1,19.053,0L55.1,35.452a11,11,0,0,1-9.526,16.5H23.693a11,11,0,0,1-9.526-16.5Z" transform="translate(45.416 -13.816) rotate(68)"/>
+               </svg>
+            </span>
+         </div>
+         <!-- shape group wrap close -->
+        
+            <div class="portfolio-detail-content port-detail-space sec-pad">
+                  <div class="container">
+               <div class="row">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-8 grid-item-space mb-lg-0">
+                     <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 grid-item-space" *ngFor="let images of  portfolioContent.remainingImages">
+                           <img src="{{images}}" alt="portfolio image">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                     <div class="portfolio-info-wrap">
+                        <div class="info-field skills mrgn-b-2">
+                           <h6 class="mb-2">PROJECT INFO</h6>
+                           <p class="d-block">{{portfolioContent.projectInfo}} <br>
+                           by <span class="font-weight-light font-italic">{{portfolioContent.author}}</span></p>
+                        </div>
+                        <div class="info-field date mrgn-b-2">
+                           <h6 class="mb-1">DATE</h6>
+                           <p class="d-block mb-2 ">{{portfolioContent.date}}</p>
+                        </div>
+                        <div class="info-field date mrgn-b-2">
+                           <h6 class="mb-1">CATEGORY</h6>
+                           <p class="d-block mb-2">{{portfolioContent.category}}</p>
+                        </div>
+                        <div class="info-field date mrgn-b-2">
+                           <h6 class="mb-1">ABOUT</h6>
+                           <p class="d-block mb-2">{{portfolioContent.about}}</p>
+                        </div>
+                        <div class="info-field share">
+                           <h6 class="mb-3">SOCIAL SHARE</h6>
+            					<div class="social-share">
+            						<app-social-icons [socialIcons]="portfolioContent.socialShare"></app-social-icons> 
+            					</div>
+                        </div>   
+                     </div>   
+                  </div>
+               </div>
+               </div>
+            </div>
+            <!-- portfolio detail content wrap close  -->
+            <div class="other-portfolio-wrap sec-pad bg-light">
+                  <div class="container">
+               <div class="sec-title mb-5 text-center">
+                  <h3 class="mb-0">Other Portfolio</h3>
+               </div>
+               <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 mx-auto text-center c-md-space" *ngFor = "let content of getPortfolioByCategory('Web Designer')">
+                     <div class="other-portfolio-content d-inline-block">
+                        <div class="image-wrap overlay-wrap mrgn-b-2">
+                           <img class="d-inline-block" src="{{content.image1}}" alt="portfolio project image" width="350" height="196">
+                           <div class="overlay-content d-flex align-items-center justify-content-center">
+                              <a class="btn-sm btn-primary" href="javascript:void(0)" (click)="portfolioGridContent(content)"><i class="fas fa-arrow-right font-lgx text-white"></i></a>
+                           </div>
+                        </div>
+                        <div class="portfolio-content">
+                           <div class="desig mb-2">
+                              <span class="text-muted">{{content.type}}</span>
+                           </div>
+                           <div class="sec-title">   
+                              <h5 class="font-weight-normal"><a>{{content.title}}</a></h5>
+                           </div>   
+                        </div>
+                     </div>
+                  </div>
+               </div>   
+               </div>
+            </div>
+            <!-- other portfolio-wrap close   -->
+        
+      </div>     
+   </div>
+</ng-container>

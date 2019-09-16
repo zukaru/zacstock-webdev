@@ -1,0 +1,29 @@
+<div class="blog-item">
+	<div class="image-wrap mb-4">
+		<a (click)="listBlogContent(blogList)" href="javascript:void(0);"><img src="{{blogList.image}}" class="" alt="" width="790" height="510"></a>
+	</div>
+	<div class="post-content">
+      <div class="meta-info">
+         <span class="category-wrap d-inline-block mb-2">
+            <a href="javascript:void">Business</a>
+            <span class="d-inline-block mx-1">/</span>
+            <a href="javascript:void(0);">Journal</a>
+         </span>
+      </div>
+		<div class="sec-title mb-3">
+			<h5 class="font-weight-bold"><a (click)="listBlogContent(blogList)" href="javascript:void(0);" tabindex="-1">{{blogList.title}}</a></h5>
+		</div>
+		<div class="sec-content mb-3">
+			<p>{{blogList.content1|slice : 0:159}}{{blogList.content1.length > 159 ? '...' : ''}}</p>
+		</div>
+		<div class="meta-info">
+			<span class="author">
+				by <a class="font-smx" href="javascript:void(0);" tabindex="0">{{blogList.name}}</a>
+			</span>
+			<span class="date">
+				Posted On <a class="font-smx" href="javascript:void(0);" tabindex="0">{{blogList.date}}</a>
+			</span>
+		</div>
+	</div>
+</div>
+<!-- blog-item wrap close -->

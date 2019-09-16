@@ -1,0 +1,43 @@
+<footer class="footer-section footer-spacing" id="footer-wrap">
+   <!-- <ng-container *ngIf="currentUrl!='/about-us/about' && currentUrl!='/contact' && currentUrl!='/pages/services'">
+      <app-subscribe></app-subscribe>
+   </ng-container>  -->
+   <div class="footer-wrap">
+      <div class="container">
+         <div class="row">
+            <div class="col-12 col-sm-12 col-lg-3 grid-item-space mb-lg-0">
+               <div class="footer-sec footer-sec-1">
+                  <div class="footer-widget-area mb-7">
+                     <ng-container *ngIf="currentUrl=='/';else elseBlock">
+                        <app-theme-dark-logo logoClass="footer-logo"></app-theme-dark-logo>
+                     </ng-container>
+                     <ng-template #elseBlock>
+                        <app-theme-light-logo logoClass="footer-logo"></app-theme-light-logo>
+                     </ng-template>
+                  </div>
+                  <div class="footer-widget-area mb-2 mb-lg-4">
+                     <div class="social-links">
+                        <app-social-icons [socialIcons]="socialIcons"></app-social-icons>
+                     </div>
+                  </div>
+                  <div class="footer-widget-area">
+                     <div class="copyright-info">
+                        <p class="mb-0">© 2019 Zac Stock Web Development. All Rights Reserved</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- footer-sec wrap close -->
+            </div>
+            <div class="col-6 col-sm-3 col-md-4 col-lg-3 footer-top-space grid-item-space" *ngFor="let menuList of footerMenu.getFooterOneMenu()">
+               <app-footer-menu [menu]="menuList"></app-footer-menu>
+            </div>
+            <!-- footer menu   -->
+            <div class="col-12 col-sm-6 col-md-4 col-md-4 col-lg-3 footer-top-space grid-item-space">
+               <app-working-hours></app-working-hours>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- footer-wrap close -->
+</footer>
+<!-- footer close -->

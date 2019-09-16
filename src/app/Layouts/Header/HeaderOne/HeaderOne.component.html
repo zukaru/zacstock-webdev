@@ -1,0 +1,29 @@
+<header id="header-sec" class="header-v1">
+	<div class="header-wrap" id ="header-wrap">
+		<div class="container-fluid px-0">
+         <div class="custom-container">
+            <nav class="navbar navbar-expand-lg navbar-dark theme-navbar">
+               <ng-container *ngIf="currentUrl=='/';else elseBlock">
+                  <app-theme-light-logo logoClass="navbar-brand"></app-theme-light-logo>
+               </ng-container>
+               <ng-template #elseBlock>
+                  <app-theme-dark-logo logoClass="navbar-brand"></app-theme-dark-logo>
+               </ng-template>
+               <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#main-header"
+                  aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="navbar-collapse collapse" id="main-header">
+                  <app-header-menu class="mx-auto"></app-header-menu>
+                  <app-lets-talk></app-lets-talk>
+               </div>
+               <!-- navbar collapse header menu -->
+            </nav>
+         </div>
+		</div>
+	</div>
+   <!-- header wrap -->
+	<app-stickyheader></app-stickyheader>
+   <!-- sticky header close -->
+</header>
+<!-- header sec close -->

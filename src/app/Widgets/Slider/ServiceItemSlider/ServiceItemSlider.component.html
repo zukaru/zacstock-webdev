@@ -1,0 +1,19 @@
+<ngx-slick-carousel [config]="serviceSlideConfig">
+	<div class="service-item-image" ngxSlickItem [ngStyle]="{'background-image': 'url(' + items.backgroundImage + ')'}" *ngFor="let items of serviceItems">
+	   <div class="service-item-content">
+	      <span class="bg-text">{{items.backgroundText}}</span>
+	      <div class="sec-title mrgn-b-2">
+	         <h5>{{items.title}}</h5>
+	      </div>
+	      <div class="sec-content mrgn-b-2">
+	         <p class="lh-17">{{items.content}}</p>
+        </div>
+
+	      <!-- <div class="read-more-link">
+	         <a href="javascript:void(0)" class="btn btn-white btn-square">Read More</a>
+	      </div>  -->
+	   </div>
+      <!-- service-item-content wrap close -->
+	</div>
+   <!-- service-item-image wrap close -->
+</ngx-slick-carousel>

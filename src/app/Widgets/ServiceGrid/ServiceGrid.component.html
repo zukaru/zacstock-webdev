@@ -1,0 +1,42 @@
+<div class="row">
+   <div class="col-12 col-md-12 col-lg-5 col-xl-6 c-md-space-lg">
+      <div class="service-info">
+         <div class="sec-title mrgn-b-2">
+            <h2 class="title">Services</h2>
+         </div>
+         <div class="sec-content mrgn-b-2">
+            <p> A beautiful website is worthless if it doesn't help accomplish your goals. We assist small and large organizations in solving complex problems with simple solutions. We focus on getting results.</p>
+
+
+
+
+            <p>
+               What's the purpose of your project? Would you like more calls, followers, or sign-ups? We specialize in conversion-driven design.
+            </p>
+
+            <p>
+                Do your social media accounts lack quality followers, the type that become loyal customers and donors? Social media management services we offer may be a perfect fit for you.
+            </p>
+
+            <p>Experience how <a class="highlight">Zac Stock Web Development</a> has become the trusted source of online growth for organizations near you.</p>
+         </div>
+      </div>
+      <!-- service info wrap -->
+      <div class="service-btn">
+         <a [routerLink]="['/services']" class="btn btn-secondary-grad btn-click-effect">Learn More</a>
+      </div>
+      <!-- service btn -->
+   </div>
+   <div class="col-12 col-md-12 col-lg-7 col-xl-6">
+      <div class="services-grid-wrap text-center">
+         <div class="row">
+            <ng-container *ngFor ="let item of serviceItems; let i = index">
+               <div class="col-12 col-sm-6 grid-item-space" *ngIf="i<4">
+                  <app-service-item [serviceItem]="item"></app-service-item>
+               </div>
+            </ng-container>
+         </div>
+      </div>
+      <!-- services-grid-wrap close -->
+   </div>
+</div>

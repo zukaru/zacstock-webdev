@@ -1,0 +1,65 @@
+/*--------------
+3.3.1 Banner Section
+----------------*/
+.banner-wrap{
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.banner-title{
+   font-size: 4.5rem;
+}
+.banner-overlay{
+   .sec-title > .banner-title{
+      font-weight:600;
+      line-height: 1.1;
+   }
+   // padding: 15rem 0;
+   background: $banner-overlay-color;
+   position: relative;
+   height: 100vh;
+   min-height: 700px;
+   display: flex;
+   align-items: center;
+   .banner-btn{
+      margin-top: 3.5rem;
+   }
+   a.btn {
+      font-size: 1.05rem;
+      padding: 1.2rem 2.5rem;
+   }
+}
+.banner-wrap-v1{
+   background-image: url("/assets/images/succulentCoffeeCotrollerTable.jpg");
+}
+.pages-common-banner{
+   min-height: $banner-height;
+   background-size:cover;
+   background-position: center center;
+   display: flex;
+   align-items: center;
+   border-radius: 10px;
+   padding: 9.8rem 0 9rem;
+   overflow: hidden;
+}
+@media all and (-ms-high-contrast:none){
+   *::-ms-backdrop, .pages-common-banner {
+      height: 100px; //for IE
+   } /* IE11 */
+   *::-ms-backdrop, .select-group select {
+      background: transparent;
+   }
+}
+@media(max-width:991px){
+   .banner-overlay{
+      .sec-title > .banner-title{
+         font-size: 4rem;
+      }
+   }
+}
+@media(max-width:767px){
+   .banner-overlay{
+      .sec-title > .banner-title{
+         font-size: 3.5rem;
+      }
+   }
+}

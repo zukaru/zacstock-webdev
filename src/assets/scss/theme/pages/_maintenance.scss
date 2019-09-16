@@ -1,0 +1,39 @@
+/*--------------
+3.4.7 Maintenance Page
+----------------*/
+/*==== Maintenance Wrap ====*/
+.maintenance-wrap {
+   background-image: url("https://via.placeholder.com/1920x1280");
+   background-size: cover;
+   background-repeat: no-repeat;   
+   padding:1.5rem 0;
+   // min-height:calc(100vh - 3rem);
+   min-height: 100vh;
+   height: 100px;
+   // .main-row {
+   //    min-height: calc(100vh - 3rem);
+   // }
+   .maintenance-content-wrap{
+      border-radius: 10px;
+      padding: 4rem 3.5rem 4rem;
+      background-color: rgba($white, 0.70);
+   }
+   .maintenance-content .form-control {
+      border-radius: 30px;
+   }
+}
+@media(max-width:991px){
+   .maintenance-content-wrap .image-wrap img{
+      width: 200px;
+   }
+}
+@media(max-width:460px) {
+   .maintenance-wrap .maintenance-content-wrap {
+      padding: 2.5rem;
+   }
+}
+@media(max-width:380px) {
+   .maintenance-wrap .maintenance-content-wrap {
+      padding: 2.5rem 1rem;
+   }
+}

@@ -1,0 +1,106 @@
+//Table of Content
+
+/*--------------
+1.0 Bootstrap
+----------------*/
+/*--------------
+2.0 Custom Variables
+----------------*/
+/*--------------
+3.0 Theme Style
+   3.1 Utilities
+   
+      3.1.1 Base
+      3.1.2 Custom Shapes
+      3.1.3 Custom Buttons
+      3.1.4 Custom Forms
+      3.1.5 Spacer
+      3.1.6 Rtl
+   
+   3.2 Core
+  
+      3.2.1 Reset
+      3.2.2 Header
+      3.2.3 Preloader
+      3.2.4 Footer
+   
+   3.3 Sections
+      3.3.1 Banner Section
+      3.3.2 Services Section
+      3.3.3 Recent Work Section
+      3.3.4 Blog Section
+      3.3.5 Slider Element Section
+      3.3.6 Testimonial Section
+      3.3.7 Contact Section
+      3.3.8 Explore Studio Section
+      3.3.9 Subscribe Section
+      3.3.10 Team Section
+   3.4 Pages
+      3.4.1 Pricing Page
+      3.4.2 About Page
+      3.4.3 Services Page
+      3.4.4 Portfolio Page
+      3.4.5 Search Page
+      3.4.6 Comingsoon Page
+      3.4.7 Maintenance Page
+      3.4.8 404 Page
+      3.4.9 Faq Page
+      3.4.10 Session Page
+      3.4.11 Process Page
+      3.4.12 Team Page
+----------------*/
+/*--------------
+4.0 Responsive
+----------------*/
+
+// 1.0 Bootstrap
+
+@import "bootstrap/functions";
+
+//Override Bootstrap
+@import "theme/bootstrap-override";
+@import "bootstrap/variables";
+
+@import "bootstrap/mixins";
+
+
+// Bootstrap components
+
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/utilities";
+@import "bootstrap/print";
+
+
+
+@import "theme/custom-variables";
+@import "theme/theme";
+@import "theme/responsive";

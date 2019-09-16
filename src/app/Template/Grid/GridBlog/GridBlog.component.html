@@ -1,0 +1,33 @@
+<div class="blog-item">
+   <div class="image-wrap mb-4">
+      <a (click)="gridBlogContent(gridBlog)" href="javascript:void(0);"><img src="{{gridBlog.image}}" class="" alt="" width="790" height="510"></a>
+   </div>
+   <div class="post-content">             
+      <div class="meta-info mb-2">
+         <span class="category-wrap font-italic d-inline-block">
+            <a href="javascript:void(0);">Business</a>
+            <span class="d-inline-block mx-1">/</span>
+            <a href="javascript:void(0);">Journal</a>
+         </span>
+      </div> 
+      <!-- category-wrap close -->
+      <div class="sec-title">
+         <h5 class="font-weight-bold mb-3"><a (click)="gridBlogContent(gridBlog)" href="javascript:void(0);" tabindex="-1">{{gridBlog.title}}</a></h5>
+      </div>
+      <div class="sec-content">
+         <p class="mb-2">{{gridBlog.content1|slice : 0:95}}{{gridBlog.content1.length > 95 ? '...' : ''}}</p>
+      </div>
+      <div class="meta-info mb-4">
+         <span class="author">
+            By <a class="font-smx" href="javascript:void(0);" tabindex="0">{{gridBlog.name}}</a>
+         </span>
+         <span class="date">
+            Posted On <a class="font-smx" href="javascript:void(0);" tabindex="0">{{gridBlog.date}}</a>
+         </span>
+      </div>
+      <div class="read-more btn-rtl-bdr">
+         <a (click)="gridBlogContent(gridBlog)" href="javascript:void(0);" class="btn-square py-0 btn-white d-inline-block">Read More</a>
+      </div>
+   </div>
+   <!-- post-content-wrap close -->
+</div>

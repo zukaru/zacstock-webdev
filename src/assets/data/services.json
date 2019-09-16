@@ -1,0 +1,81 @@
+{
+	"serviceGrid" : [
+		{
+
+			"icon" : "fa fa-code",
+			"title" : "Web Development",
+			"polygon_color" : "svg-success",
+			"content" : "Maintainable architecture that's scalable with your growing needs. Only industry trusted technologies are used."
+		},
+		{
+			"icon" : "far fa-thumbs-up",
+			"title" : "Social Media",
+			"polygon_color" : "svg-error",
+			"content" : "Grow social media accounts with organic followers, the kind that become customers and donors."
+		},
+		{
+			"icon" : "fas fa-user-plus",
+			"title" : "Conversion-Focused",
+			"polygon_color" : "svg-primary",
+			"content" : "Meet your goals with conversion-driven design. Get more traffic where you need it."
+		},
+		{
+			"icon" : "fab fa-searchengin",
+			"title" : "SEO",
+			"polygon_color" : "svg-success",
+			"content" : "Search Engine Optimization positions your website above others on search engine platforms."
+	},
+		{
+			"icon" : "fas fa-drafting-compass",
+			"title" : "UI/UX Design",
+			"polygon_color" : "svg-error",
+			"content" : "Your website should especially appeal to your target audience. Less friction, more results."
+	},
+		{
+			"icon" : "fab fa-wordpress",
+			"title" : "CMS",
+			"polygon_color" : "svg-primary",
+			"content" : "The most popular CMS (Content Management System) is WordPress, but we work with all CMS platforms."
+		}
+	],
+	"serviceSlider" : [
+		{
+			"backgroundImage" : "assets/images/contact2.jpg",
+			"backgroundText" : "U",
+			"title" : "User Experience",
+			"content" : "Designing a powerful user experience gets results. This process involves discovering the end-users and how to move them to action."
+		},
+		{
+			"backgroundImage" : "assets/images/mlc-mobile-toolbar.jpg",
+			"backgroundText" : "D",
+			"title" : "Design Websites",
+			"content" : "This process bridges the gap between user experience and web development. At this point we focus on practical designs to steer the user to a specific action."
+		},
+		{
+			"backgroundImage" : "assets/images/tablet-reflect-code.jpg",
+			"backgroundText" : "D",
+			"title" : "Development",
+			"content" : "It's time to write code. Although technical, there's nothing mysterious about coding. We use industry trusted technologies in every project we develop."
+		},
+		{
+			"backgroundImage" : "assets/images/mlc-desktop.jpg",
+			"backgroundText" : "S",
+			"title" : "SEO",
+			"content" : "There are over 1.5 billion websites on the internet. So how will the right people find your website? By optimizing your ranking on search engine platforms."
+		}
+	],
+	"serviceFeatures" : [
+		"Web Design",
+		"Web Development",
+		"Responsive Websites",
+		"User Experience",
+		"Social Media Management",
+		"Custom Domain Email",
+		"Mobile Websites",
+		"Single Page Applications",
+		"CMS Platforms WordPress, Wix, Drupal, Etc...",
+		"Search Engine Optimization",
+		"JavaScript, TypeScript, Angular",
+		"HTML, CSS, SASS"
+	]
+}

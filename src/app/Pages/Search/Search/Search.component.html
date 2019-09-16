@@ -1,0 +1,33 @@
+<app-banner pageTitle="Search"></app-banner>
+<div class="content py-0">
+   <div class="search-page-wrap">
+   	<app-search-v2 btnContent="Go To Page"></app-search-v2>
+   	<div class="search-ques-wrap sec-pad " *ngIf="searchContent">
+         <div class="container">
+            <div class="sec-title text-center mb-5">
+               <h4 class="font-weight-bold">About <span class="text-primary">{{searchContent.length}} results</span> found in Droplet.</h4>
+            </div>
+            <div class="row">
+               <div class="col-12 col-sm-12 col-md-6 col-lg-6" *ngFor="let content of searchContent">
+                  <div class="search-content p-3 mb-3 border-bottom">
+                     <div class="sec-title mb-4">
+                        <h5 class="font-weight-bold">{{content.title}}</h5>
+                     </div>
+                     <div class="sec-content mb-4">
+                       {{content.content}}
+                     </div>
+                     <div class="sec-link d-flex mb-3">
+                        <span class="font-weight-bold mr-1">URL :</span>
+                        <a class="text-ellipse text-primary" attr.href="{{content.url}}">{{content.url}}</a>
+                     </div>
+                  </div>
+                  <!-- search content -->
+               </div>
+            </div>
+            <!-- row -->
+         </div>   
+      </div> 
+      <!-- search-ques wrap close -->
+   </div>
+   <!-- search page wrap close -->
+</div>

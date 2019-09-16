@@ -1,0 +1,25 @@
+<div class="container">
+   <div class="row">
+      <app-widget-heading [contentHeading]="recentWorkHeading"></app-widget-heading>
+   </div>
+</div>
+<div class="portfolio-wrap simple-portfolio-grid">
+   <div class="portfolio-grid mb-5">
+      <div class="container-fluid px-0">
+         <div class="row no-gutters">
+            <div class="col-12 col-md-6 col-xl-4" *ngFor="let content of portfolioContent; let i = index">
+               <ng-container *ngIf="showPortfolioData > i">
+                  <app-portfolio-grid-content [portfolioContent] = "content"></app-portfolio-grid-content>
+               </ng-container>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- simple-portfolio-grid wrap close -->
+<div class="container text-center">
+   <div class="recent-work-btn d-inline-block">
+      <a class="btn btn-secondary-grad btn-click-effect" [routerLink]="['/contact']">LET'S TALK</a>
+   </div>
+   <!-- recent-work-btn wrap close -->
+</div>

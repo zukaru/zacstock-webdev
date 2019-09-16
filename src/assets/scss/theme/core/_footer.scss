@@ -1,0 +1,34 @@
+/*--------------
+3.2.4 Footer
+----------------*/
+/*==============|Footer Sec title|===============*/
+.footer-section{
+   background-color:$gray-500;
+}
+.footer-wrap{
+   .footer-top-space{
+      padding-top: 0.5rem;
+   }
+   .footer-widget-area{
+      .footer-sec-title h6{
+         font-weight: 600;
+         font-size: 1.125rem;
+      }
+      .footer-menu-list{
+         li > a, .timing-widget {
+            display: block;
+            font-size: 0.875rem;
+            line-height: 1.875rem;
+            font-family: $sec-font-family;
+         }
+      }
+   }
+   .social-links{
+      .list-inline-item:not(:last-child) {
+         margin-right: 0.1rem;
+      }
+   }
+}
+.working-wrap{
+   max-width: 290px;
+}

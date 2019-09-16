@@ -1,0 +1,86 @@
+/*--------------
+3.2.1 Reset
+----------------*/
+html{
+   font-size: 16px;
+}
+html,body{
+   scroll-behavior: smooth;
+   overflow-x: hidden;
+   min-height: 100%;
+   width: 100%;
+   position: relative;
+   -webkit-tap-highlight-color: transparent;
+   -webkit-touch-callout: none;
+   min-height: 100%;
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+.content{
+   padding:65px 0;
+}
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+.font-size-sm {
+   font-size:$font-size-sm;
+}
+.select-group{
+   select{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background: white url("../../assets/images/select-arrow.png") no-repeat scroll 96% center;
+   }
+}
+.overlay-wrap{
+   position: relative;
+   overflow: hidden;
+   .overlay-content{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      padding: 30px;
+      opacity: 0;
+      visibility: hidden;
+      transition: $theme-transition;
+   }
+   &:hover .overlay-content{
+      opacity: 1;
+      visibility: visible;      
+   }
+}
+
+.highlight{
+   color: $primary !important;
+}
+
+.custom-column-grid{
+   column-count: 2;
+   column-gap: 30px;
+}
+
+h1, h1 a , h2 ,h2 a , h3, h3 a , h4 , h4 a, h5, h5 a , h6 h6 a{
+   color:$dark;
+}
+p,p a{
+   font-size: 1.15rem;
+   line-height: 1.74;
+   color:#555;
+}
+.sec-title > p{
+   font-size: 1.125rem;//18px
+}
+.w-80{
+   width: 80%;
+}
+.p-cursor{
+   cursor: pointer;
+}

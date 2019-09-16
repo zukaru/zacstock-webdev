@@ -1,0 +1,20 @@
+<div [dir]="isRtl" (scroll)="onScrollEvent($event)">
+	<app-header-one></app-header-one>
+   <!-- header close -->
+	<ng-container *ngIf="currentUrl=='/'">
+	   <app-home-banner></app-home-banner>
+	   <!-- banner sec close -->
+	</ng-container>
+    <!-- rtl Layout close  -->
+  <router-outlet (activate)="onActivate($event)"></router-outlet>
+
+	<ng-container *ngIf="currentUrl!='/session/signup'">
+		<app-footer-one></app-footer-one>
+  </ng-container>
+  <ng-container *ngIf="!(currentUrl === '/contact/project-requirements' || currentUrl === '/contact')">
+    <app-cta-toolbar ></app-cta-toolbar>
+  </ng-container>
+
+   <!-- footer close-->
+</div>
+<!-- rtl wrap close -->

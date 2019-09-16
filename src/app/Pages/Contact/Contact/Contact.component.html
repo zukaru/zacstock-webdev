@@ -1,0 +1,53 @@
+<app-banner pageTitle="Contact"></app-banner>
+<div class="content p-0">
+   <div class="contact-us-page">
+      <div class="contact-us-sec shape-wrap contact-page-space sec-pad">
+         <div class="shape-group">
+            <span class="custom-shape pos-size-1">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.413 60.176">
+                  <path data-name="Custom Polygon 2" class="svg-border svg-border-2" d="M25.109,16.5a11,11,0,0,1,19.053,0L55.1,35.452a11,11,0,0,1-9.526,16.5H23.693a11,11,0,0,1-9.526-16.5Z" transform="translate(45.416 -13.816) rotate(68)"></path>
+               </svg>
+            </span>
+            <span class="custom-shape pos-size-2">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.413 60.176">
+                  <path data-name="Custom Polygon 2" class="svg-border svg-border-1" d="M25.109,16.5a11,11,0,0,1,19.053,0L55.1,35.452a11,11,0,0,1-9.526,16.5H23.693a11,11,0,0,1-9.526-16.5Z" transform="translate(45.416 -13.816) rotate(68)"></path>
+               </svg>
+            </span>
+         </div>
+         <!-- shape group close -->
+         <div class="container-fluid">
+            <div class="custom-container">
+               <div class="row custom-container">
+                  <div class="">
+                     <div class="contact-content">
+                        <app-contact-content-v2></app-contact-content-v2>
+                        <div class="contact-form-wrap icustom-forms">
+                           <app-contact-form-v2 *ngIf="router.url == '/contact' "></app-contact-form-v2>
+                           <app-project-requirements-form *ngIf="router.url == '/contact/project-requirements' "></app-project-requirements-form>
+
+                        </div>
+                     </div>
+                     <!-- contact content wrap -->
+                  </div>
+
+
+                  <!-- <div class="col-12 col-xl-6 px-0 ml-auto">
+                     <div class="featured-contact-map">
+                        <div class="map-section">
+                           <div class="container-fluid px-0">
+                              <app-map></app-map>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div> -->
+
+
+
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Contact us sec -->
+   </div>
+</div>

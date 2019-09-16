@@ -1,0 +1,26 @@
+.navbar {
+  padding: 0 !important;
+}
+
+.navbar-nav {
+  float:none;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, .6) !important;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float:none;
+  padding: 0 7.5vw !important;
+  font-size: 6.5vw;
+}
+
+
+.fab, .fa, .fas {
+  color: white !important;
+}

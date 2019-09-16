@@ -1,0 +1,48 @@
+<div class="comment-respond">
+   <div id="comments" class="comments-area">
+      <div id="respond" class="comment-respond">
+         <div class="comment-form-wrap">
+            <form class="row" action="/.xyz" method="post" [formGroup]="form">
+               <div class="form-group col-12 col-md-6 mrgn-b-2">
+                  <input name="name-input" class="form-control" type="text" value="" placeholder="First Name" formControlName ='fname'>
+                  <small class="text-danger chankya-block" *ngIf="form.controls['fname'].hasError('required') && form.controls['fname'].touched">
+                     You must include a first name.
+                  </small>
+               </div>
+               <!-- form-group -->
+               <div class="form-group col-12 col-md-6 mrgn-b-2">
+                  <input name="name-input" class="form-control" type="text" value="" placeholder="Last name" formControlName ='lname'>
+                  <small class="text-danger chankya-block" *ngIf="form.controls['lname'].hasError('required') && form.controls['lname'].touched">
+                     You must include a last name.
+                  </small>
+               </div>
+               <!-- form-group -->
+               <div class="form-group col-12 col-md-12 mrgn-b-2">
+                  <input name="name-input" class="form-control" type="email" value="" placeholder="Email" formControlName ='email'>
+                  <small class="text-danger chankya-block" *ngIf="form.controls['email'].hasError('required') && form.controls['email'].touched">
+                     You must include an email address.
+                  </small>
+                  <small class="text-danger chankya-block" *ngIf="form.controls['email'].errors && !(form.controls['email'].hasError('required')) && form.controls['email'].touched">
+                     You must include a valid email address.
+                  </small>
+               </div>
+               <!-- form-group -->
+               <div class="form-group col-12 col-md-12 mb-5">
+                  <textarea name="name-input" class="form-control" row="5" value="" placeholder="Message" formControlName ='message'></textarea>
+                    <small class="text-danger chankya-block" *ngIf="form.controls['message'].hasError('required') && form.controls['message'].touched">
+                        You must include a mesage.
+                     </small>
+               </div>
+               <!-- form-group -->
+               <div class="form-group col-12 col-md-12">
+                  <input class="btn btn-secondary-grad btn-click-effect d-inline-block" type="submit" value="Request Callback">
+               </div>
+               <!-- form-group -->
+            </form>
+         </div>
+         <!-- comment-form-wrap -->
+      </div><!-- #respond -->
+   </div>
+   <!-- comment-area -->
+</div>
+<!-- comment-respond wrap close -->

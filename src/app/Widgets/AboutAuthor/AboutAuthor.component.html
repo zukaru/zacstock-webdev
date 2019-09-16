@@ -1,0 +1,25 @@
+<ng-container *ngIf="aboutAuthor">
+   <div class="sec-title">
+      <h4 class="mrgn-b-2">{{aboutAuthor.title}}</h4>
+   </div>
+   <div class="row post-author-info-wrap">
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3 blog-author-info-img">
+         <div class="image-wrap mb-4">
+            <img class="rounded" src="{{aboutAuthor.image}}" alt="" width="160" height="160">
+         </div>
+      </div><!-- blog-author-info-img -->
+      <div class="col-12 col-sm-12 col-md-9 col-lg-9 align-self-center blog-author-info-content mb-4">
+         <div class="author-post-name">
+            <div class="sec-title">
+               <h6 class="text-capitalize">
+                  {{aboutAuthor.name}}
+               </h6>
+            </div>
+            <div class="sec-content">
+               <p>{{aboutAuthor.content}}</p>
+            </div>
+         </div><!-- author-post-name -->
+      </div><!-- blog-author-info-content -->
+   </div>
+   <!-- post-author-info-wrap close -->
+</ng-container>

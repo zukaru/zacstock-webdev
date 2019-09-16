@@ -1,0 +1,28 @@
+/*--------------
+3.3.7 Contact Section
+----------------*/
+.contact-sec{
+   .contact-content{
+      .contact-info{
+         p > a{
+            color:$contact-font-color;
+         }
+      }
+   }   
+}
+.contact-sec{
+   .contact-form-wrap{
+      padding: 3.25rem 3.25rem 3.15rem;
+      width: 473px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px 0 rgba($dark, 0.17);
+      display: inline-block;
+      .form-control{
+         padding: 0.3rem 1rem;
+         border-radius: 17.5px;
+         background-color: #F4F4F4;
+         border:0;
+         height: 48px;
+      }
+   }
+}
