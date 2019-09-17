@@ -97,6 +97,7 @@ header .navbar-nav {
             font-size: 1.125rem;
             padding: 0 1.5rem;
             font-weight: 600;
+            text-align: center;
          }
       }
    }
@@ -257,7 +258,8 @@ header .navbar-nav {
          height: calc(100vh - 66px);
          align-self: start;
          overflow: hidden;
-         overflow-y: auto;
+         //overflow-y: auto;
+         transition: all 1s ease-in-out;
          li{
             padding-right: 1rem;
             > a{
@@ -280,7 +282,7 @@ header .navbar-nav {
 	opacity: 0;
 	transform: translateY(-80px);
    visibility: hidden;
-   background: rgba(0, 0, 0, .6);
+   background: rgba(61, 31, 31, 0.6);
    left: 0;
    position: fixed;
    right: 0;
